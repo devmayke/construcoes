@@ -1,0 +1,25 @@
+.header{
+  display:flex;
+  padding:10px;
+  
+  align-items: center;
+  width:100vw;
+  height:10vh;
+  border:1px solid black;
+}
+.logo{
+  flex:3;
+  
+}
+.menu{
+  flex:2;
+  display: flex;
+  list-style: none;
+}
+ .menu li a{
+  font-family: sans-serif;
+  margin:10px;
+  text-decoration: none;
+  white-space: nowrap;
+
+}
