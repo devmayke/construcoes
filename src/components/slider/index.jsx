@@ -19,15 +19,15 @@ const Slider = () => {
 
   return(
     <Carousel className="carousel"
-    wrapAround={true}
-    initialSlideHeight={'70vh'}
+    dragging={true}
+    wrapAround={true}   
     autoplayInterval={2000}
     autoplay={true}
     renderCenterLeftControls={({ previousSlide }) => (
-      <button onClick={previousSlide}>Previous</button>
+      <button className='previous' onClick={previousSlide}>Previous</button>
     )}
     renderCenterRightControls={({ nextSlide }) => (
-      <button onClick={nextSlide}>Next</button>
+      <button className='next' onClick={nextSlide}>Next</button>
     )}
     
   

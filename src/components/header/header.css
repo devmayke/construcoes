@@ -1,41 +1,44 @@
-.header{
-  display:flex;
-  padding:10px;  
-  align-items: center;
-  width:100vw;
-  height:10vh;
-  background:rgba(0,0,0,.6);
-  position: fixed;
-  z-index: 5;
-  box-shadow: 2px 0 4px 2px rgba(200,200,200, .7) ;
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 10vh;
+    background: rgba(0, 0, 0, .6);
+    position: fixed;
+    z-index: 5;
+    box-shadow: 2px 0 4px 2px rgba(200, 200, 200, .7);
 }
-.logo{
-  flex-grow:2;
-}
-nav{
-  flex-grow:1;
-}
-.menu{
-  width: 100%;
-  display: flex;
-  list-style: none;
-}
-.menu li:hover{
-  border-bottom: 3px solid rgb(206, 206, 206);
-  cursor: pointer;
-}
- .menu li a{
-  all:unset;
-  font-family: sans-serif;
-  margin:10px;
-  text-decoration: none;
-  white-space: nowrap;
-  color:white;
 
+.logo {
+    flex-grow: 2;
 }
-.menu li a:link{
 
-  text-decoration: none;
+nav {
+    flex-grow: 1;
+}
 
+.menu {
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
 
+.menu li:hover {
+    border-bottom: 3px solid rgb(206, 206, 206);
+    cursor: pointer;
+}
+
+.menu li a {
+    all: unset;
+    font-family: sans-serif;
+    margin: 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    color: white;
+}
+
+.menu li a:link {
+    text-decoration: none;
 }
