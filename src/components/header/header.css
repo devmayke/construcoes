@@ -2,10 +2,7 @@
   width: 100%;
   height:80vh;
   display:flex;
-  flex-direction: column;
-  border:1px solid green;
-  
-
+  flex-direction: column; 
 }
 nav{
   position: fixed;
@@ -30,6 +27,7 @@ nav{
   padding:5px 10px; 
   white-space: nowrap;
   color:white;
+  letter-spacing: 2px;
 }
 .menu li:hover{
   border-bottom: 2px solid white;

@@ -1,8 +1,16 @@
 
 .carousel img{
   height: 90vh;
-  background-size: cover;
+  background-size: cover; 
   background-repeat: no-repeat;
+}
+.animate{
+  animation: zoom linear 7s infinite alternate;
+}
+@keyframes zoom{
+  to{
+    transform: scale(1.2);
+  }
 }
 .previous, .next{
   display: flex;
@@ -15,8 +23,6 @@
   border-radius: 50%;
   padding:5px;
   box-shadow:inset 0px 0px 8px 4px rgba(100,100,100,.5), 0px 0px 8px 4px rgba(255,255,255,.3);
-  
-
   z-index: 5;
 }
 .previous{ 
