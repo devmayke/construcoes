@@ -14,6 +14,10 @@ const CarouselComponent = (props) => {
     autoplay={true}  
     dragging={true}
     pauseOnHover={true}
+    defaultControlsConfig={{
+      pagingDotsContainerClassName:"container-dots"
+    }}
+   
     renderCenterLeftControls={({ previousSlide }) => (
       <FontAwesomeIcon  className='previous' onClick={previousSlide} icon={ faChevronLeft }size='5x' />
     )}
