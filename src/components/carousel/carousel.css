@@ -1,0 +1,17 @@
+
+.carousel img{
+  height: 90vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.previous, .next{
+  background: none;
+  width:70px;
+  height:70px;
+}
+.previous{
+  margin-left: 25px;
+}
+.next{
+  margin-right: 25px;
+}
