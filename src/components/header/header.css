@@ -27,7 +27,7 @@ nav{
   list-style: none ;
 }
 .menu li{
-  padding:5px;
+  padding:5px 10px; 
   white-space: nowrap;
   color:white;
 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import './carousel.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel';
-
 
 
 const CarouselComponent = (props) => {
@@ -11,10 +12,10 @@ const CarouselComponent = (props) => {
     autoplayInterval={2000}
     autoplay={true}  
     renderCenterLeftControls={({ previousSlide }) => (
-      <button className='previous' onClick={previousSlide}>Previous</button>
+      <FontAwesomeIcon  className='previous' onClick={previousSlide} icon={ faChevronLeft }size='5x' />
     )}
     renderCenterRightControls={({ nextSlide }) => (
-      <button className="next" onClick={nextSlide}>Next</button>
+      <FontAwesomeIcon   className="next" onClick={nextSlide} icon={ faChevronRight } size='5x' />
     )}  
     >
        {
@@ -22,7 +23,6 @@ const CarouselComponent = (props) => {
            return(
              <img src={el} key={i}/>
            )
-
          })
        }
       </Carousel>
