@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import Carousel from '../carousel'
+import {Link} from 'react-router-dom'
 
 const Header= (props) => {
 
@@ -17,10 +18,10 @@ const images = [
       <nav>
         <div className='logo'>logo aqui</div>
         <ul className='menu'>
-          <li>Construções</li>
-          <li>Quem Somos</li>
-          <li>Contato</li>
-          <li>Área do Cliente</li>
+          <li><Link to='construcoes'>Construções</Link></li>
+          <li><Link to='sobre'>Sobre</Link></li>
+          <li><Link to='contato'>Contato</Link></li>
+          <li><Link to='cliente'>Portal do Cliente</Link></li>
         </ul>
       </nav>
       <Carousel images={images}/>

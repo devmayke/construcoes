@@ -17,6 +17,8 @@ nav{
   flex:1;
   height:8vh;
   display:flex;
+  align-items: center;
+  color: white;
 }
 .menu{
   flex:1;
@@ -24,11 +26,16 @@ nav{
   list-style: none ;
 }
 .menu li{
-  padding:5px 10px; 
+  width: fit-content;
   white-space: nowrap;
   color:white;
-  letter-spacing: 2px;
 }
 .menu li:hover{
   border-bottom: 2px solid white;
+}
+a{
+  all:unset;
+  padding: 15px 1vw;
+  cursor: pointer;
+  letter-spacing: 2px;
 }
