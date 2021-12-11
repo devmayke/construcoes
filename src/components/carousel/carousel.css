@@ -5,11 +5,11 @@
   background-repeat: no-repeat;
 }
 .animate{
-  animation: zoom linear 7s infinite alternate;
+  animation: zoom linear 5s infinite alternate;
 }
 @keyframes zoom{
   to{
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 }
 .previous, .next{
