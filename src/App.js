@@ -1,13 +1,12 @@
 import './App.css';
+import Routes from './pages/routes'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
+    return ( 
+        <div className = "App" >
+            <Routes / >
+        </div>
+    );
 }
 
 export default App;
