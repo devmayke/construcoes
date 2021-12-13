@@ -10,7 +10,20 @@ const images = [
   "https://ibecensino.org.br/wp-content/uploads/2019/07/04_Planejamento_controle_obras.png",
   "https://blog.belgobekaert.com.br/wp-content/uploads/2019/09/GettyImages-628578920-1.jpg"
 ]
-
+const textSlide = {
+  title:[
+  'Construção e Obras',
+  'Manutenção predial e residencial',
+  'Pinturas e reformas',
+  'Limpeza e Conservação'
+],
+  description:[
+  'Serviço de empreita de obras, construções residenciais e prediais',
+  'Serviços de alvernaria,elétrica, hidráulica',
+  'Pintura e texturização',
+  'Lavação predial, paredes, telhados, rufos, calhas e fachadas de vidro'
+]
+}
   return (
     <header className='header'>
 
@@ -23,7 +36,7 @@ const images = [
           <li>Área do Cliente</li>
         </ul>
       </nav>
-      <Carousel images={images}/>
+      <Carousel images={images} textSlide={textSlide} />
 
     </header>
   )
