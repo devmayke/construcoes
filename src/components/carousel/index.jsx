@@ -31,7 +31,7 @@ const CarouselComponent = (props) => {
        {
          props.images.map((el, i)=>{
           return(
-             <img src={el} className={currentSlide == i ? 'animate':''} key={i}/>
+             <img alt='' src={el} className={currentSlide === i ? 'animate':''} key={i}/>
            )
          })
        }
