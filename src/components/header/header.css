@@ -12,6 +12,7 @@ nav{
   align-items: center;
   background: rgba(0,0,0, .7);
   z-index:5;
+  border-bottom: 1px solid white;
 }
 .logo{
   flex:1;
