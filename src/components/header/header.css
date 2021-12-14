@@ -25,6 +25,26 @@ nav{
   display:flex;
   list-style: none ;
 }
+header nav::after{
+  position: fixed;
+  top:9.8vh;
+  content: "";
+  width: 4vw;
+  height:3px;
+  box-shadow: 0px 0px 16px 4px rgba(206, 7, 123, 0.6);
+  background: rgb(199, 1, 117);
+  border-radius:2px;
+  transform:translateX(-4vw);
+  animation:slide linear 1.7s infinite;
+}
+@keyframes slide{
+  0%{
+
+  }
+  100%{
+    transform:translateX(100vw)
+  }
+}
 .menu li{
   width: fit-content;
   white-space: nowrap;
