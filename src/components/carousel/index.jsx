@@ -43,6 +43,7 @@ const CarouselComponent = (props) => {
       <div className={`text-slide text-animate` } key={currentSlideState}>
         <h1>{props.textSlide.title[currentSlideState]}</h1>
         <p>{props.textSlide.description[currentSlideState]}</p>
+        <button className='agendar'>Agende uma visita</button>
       </div>      
     </>
   )
