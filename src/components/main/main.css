@@ -7,6 +7,7 @@
 }
 .apresentacao article{
   padding: 40px;
+  width: 50%;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -14,4 +15,10 @@
 }
 .apresentacao p{
   margin-top: 40px;
+}
+.apresentacao-img{
+  background-image: url('https://blog.aevo.com.br/wp-content/uploads/2020/11/inovacacao-construcao-civil-1024x536.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
