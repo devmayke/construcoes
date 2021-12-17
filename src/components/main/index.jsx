@@ -26,7 +26,8 @@ const Main = () => {
           <p>Nosso time profissional é composto por eletricistas, eletrotécnicos, ceramistas, pedreiros e pintores</p>
         </article>
       </section>
-      <div style={{background:'tomato', height:'100vh'}}></div>
+      <section style={{ height:'100vh'}}>        
+      </section>
     </main>
   )
 }
