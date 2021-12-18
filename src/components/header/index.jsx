@@ -1,24 +1,10 @@
-import React, { useContext, useEffect } from 'react'
 import './header.css'
 import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
-import Context from '../../state/context.js'
 
 const Header = (props) => {
-  const context = useContext(Context)
-  function getScroll() { 
-    window.scrollY > 50? console.log('maior'):console.log('menor')    
-  }    
-  function debounce(fn, timer=1000){
-    let timeout = null
-     return function (){
-      clearTimeout(timeout)
-      timeout = setTimeout(fn, timer)  
-    }
-  }
-  useEffect(()=> {
-    document.addEventListener('scroll',debounce(getScroll, 1000))    
-  }, [])
+  
+
 
 const images = [
   "https://artia.com/wp-content/uploads/2015/07/obras.jpg",
