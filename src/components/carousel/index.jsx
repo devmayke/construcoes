@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -7,6 +7,7 @@ import Carousel from 'nuka-carousel';
 
 const CarouselComponent = (props) => {
   const [currentSlideState, setCurrentSlideState] = useState(0)
+ 
 
   return (
     <>
@@ -30,8 +31,7 @@ const CarouselComponent = (props) => {
           setCurrentSlideState(currentSlide)
           return(
           <div></div>
-        )}}
-      >
+        )}} >
         {
           props.images.map((el, i) => {
             return (
@@ -44,7 +44,7 @@ const CarouselComponent = (props) => {
         <h1>{props.textSlide.title[currentSlideState]}</h1>
         <p>{props.textSlide.description[currentSlideState]}</p>
         <button className='agendar'>Agende uma visita</button>
-      </div>      
+      </div>   
     </>
   )
 }
