@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 export default function Section2() {
   
     return (
-        <section className='section2' style={{ height: '100vh' }}>
+        <section className='section2' style={{ height: '100vh' }}> 
             
             <ScrollAnimation duration='1' className='article'   animateIn="animate__fadeInLeft"  >
                 <article>
