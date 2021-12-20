@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import Carousel from 'nuka-carousel';
+import Carousel from 'nuka-carousel'
+import 'animate.css'
 
 
 const CarouselComponent = (props) => {
@@ -43,8 +44,8 @@ const CarouselComponent = (props) => {
       <div className={`text-slide text-animate` } key={currentSlideState}>
         <h1>{props.textSlide.title[currentSlideState]}</h1>
         <p>{props.textSlide.description[currentSlideState]}</p>
-        <button className='agendar'>Agende uma visita</button>
-      </div>   
+        <button className='agendar animate__animated animate__headShake animate__delay-1s'>Agende uma visita</button>
+      </div>      
     </>
   )
 }
