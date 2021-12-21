@@ -12,6 +12,7 @@ nav{
   align-items: center;
   background: rgba(0,0,0, .7);
   z-index:5;
+  border-bottom: 1px solid white;
 }
 .logo{
   flex:1;
@@ -31,18 +32,22 @@ header nav::after{
   content: "";
   width: 4vw;
   height:3px;
-  box-shadow: 0px 0px 16px 4px rgba(206, 7, 123, 0.6);
-  background: rgb(199, 1, 117);
+  box-shadow: 0px 0px 4px 2px rgba(255, 165, 0, 0.631),
+  0px 0px 4px 2px rgba(255, 165, 0, 0.631);
+  background: rgb(255, 165, 0, 0.631);
   border-radius:2px;
-  transform:translateX(-4vw);
-  animation:slide linear 1.7s infinite;
+  transform:translateX(-5vw);
+  animation:slide linear 7s infinite;
 }
 @keyframes slide{
   0%{
-
+    transform:translateX(-5vw);
+  }  
+  90%{
+    transform:translateX(-5vw);   
   }
   100%{
-    transform:translateX(100vw)
+    transform:translateX(100vw);   
   }
 }
 .menu li{
@@ -51,7 +56,7 @@ header nav::after{
   color:white;
 }
 .menu li:hover{
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgba(255, 165, 0, 0.631);
 }
 a{
   all:unset;

@@ -1,17 +1,3 @@
-.apresentacao{
-  width:100%;
-
-  display:flex;
-  border:1px solid blue;
-  padding:0 40px;
-}
-.apresentacao article{
-  padding: 40px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.apresentacao p{
-  margin-top: 40px;
+.main{
+    min-height: 202vh;
 }
