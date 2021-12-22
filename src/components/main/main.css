@@ -1,3 +1,12 @@
 .main{
-    min-height: 202vh;
+
+
+}
+@media screen and (max-width:600px){
+    .main{
+        height:min-content;
+
+        border:2px solid green;
+    }
+
 }

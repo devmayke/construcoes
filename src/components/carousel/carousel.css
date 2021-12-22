@@ -119,3 +119,32 @@
   cursor:pointer;
   transform:scale(1.05);
 }
+@media screen and (max-width:600px){
+  .carousel img{
+    cursor:grab;
+    height: 45vh;
+    background-size: cover; 
+    background-repeat: no-repeat;
+  }
+  .carousel{
+    border:2px solid red;
+    position: relative;
+    max-height: 45vh;
+  }
+  .text-slide{
+    display:none;
+  }
+  .previous{ 
+    margin-left: 4px; 
+  }
+  .next{
+    margin-right: 4px;
+  }
+  .previous, .next{
+  
+    height:40px;
+    width:40px;
+    
+  }
+
+}
