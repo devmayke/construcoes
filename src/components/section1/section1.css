@@ -4,7 +4,8 @@
     display:flex;
     flex-wrap: wrap;
   }
-  .apresentacao article, .apresentacao label{
+  .apresentacao article
+  {
     padding: 30px;
     margin: 15px;
     width: calc(50% - (15px * 2));

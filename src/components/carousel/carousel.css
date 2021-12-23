@@ -127,7 +127,6 @@
     background-repeat: no-repeat;
   }
   .carousel{
-    border:2px solid red;
     position: relative;
     max-height: 45vh;
   }

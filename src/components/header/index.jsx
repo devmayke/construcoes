@@ -28,7 +28,6 @@ const textSlide = {
 }
 return (
   <header className='header'>
-
     <nav>
       <div className='logo'>logo aqui</div>
       <ul className='menu'>
