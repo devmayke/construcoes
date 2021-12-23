@@ -148,8 +148,7 @@
   .previous:hover, .next:hover{
     background:none;
     border: none;
-      box-shadow: none;
- 
+      box-shadow: none; 
   }
 
 }
