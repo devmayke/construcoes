@@ -5,11 +5,6 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <footer className='footer'>
-<<<<<<< HEAD
-            
-
-            foooterrrrr
-=======
             <section className='logo-footer'>
 
                 <span >
@@ -37,7 +32,6 @@ export default function Footer() {
 
 
 
->>>>>>> footer
         </footer>
     )
 }
