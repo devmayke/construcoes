@@ -22,13 +22,13 @@
     color:white;
     margin-top: 40px;
   }
-  /* .apresentacao-img{
+  .apresentacao-img{
     background-image: url('https://blog.aevo.com.br/wp-content/uploads/2020/11/inovacacao-construcao-civil-1024x536.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
   
-  } */
+  }
   @media  screen and (max-width:600px)  {
     .apresentacao{
       max-width:100vw;
