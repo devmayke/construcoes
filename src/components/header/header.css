@@ -23,6 +23,13 @@ nav{
   align-items: center;
   color: white;
 }
+.logo img{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.logo p{
+  margin-top: 20px;
+}
 .menu{
   flex:1;
   display:flex;

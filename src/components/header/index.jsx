@@ -2,7 +2,7 @@
 import './header.css'
 import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
-
+import logo from './Captura-de-tela-2021-12-23-152415.svg'
 const Header = (props) => {
 
 
@@ -29,7 +29,7 @@ const Header = (props) => {
   return (
     <header className='header'>
       <nav>
-        <div className='logo'>logo aqui</div>
+        <div className='logo'><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
         <ul className='menu'>
           <li><Link to='construcoes'>Construções</Link></li>
           <li><Link to='sobre'>Sobre</Link></li>
