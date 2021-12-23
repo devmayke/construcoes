@@ -1,5 +1,6 @@
 .footer{
- height: 40vh;
+
+    height: 40vh;
     background-image: url('https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2018/11/sondagem-industria.jpg');
     background-size: cover;    
     background-repeat: no-repeat;
