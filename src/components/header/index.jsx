@@ -2,7 +2,7 @@
 import './header.css'
 import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
-
+import logo from './Captura-de-tela-2021-12-23-152415.svg'
 const Header = (props) => {
 
 
@@ -25,6 +25,7 @@ const textSlide = {
     'Pintura e texturização',
     'Lavação predial, paredes, telhados, rufos, calhas e fachadas de vidro'
   ]
+<<<<<<< HEAD
 }
 return (
   <header className='header'>
@@ -38,6 +39,43 @@ return (
       </ul>
     </nav>
     <Carousel images={images} textSlide={textSlide} />
+=======
+  const textSlide = {
+    title: [
+      'Construção e Obras',
+      'Manutenção predial e residencial',
+      'Pinturas e reformas',
+      'Limpeza e Conservação'
+    ],
+    description: [
+      'Serviço de empreita de obras, construções residenciais e prediais',
+      'Serviços de alvernaria,elétrica, hidráulica',
+      'Pintura e texturização',
+      'Lavação predial, paredes, telhados, rufos, calhas e fachadas de vidro'
+    ]
+  }
+  return (
+    <header className='header'>
+      <nav>
+        <div className='logo'><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
+        <ul className='menu'>
+          <li><Link to='construcoes'>Construções</Link></li>
+          <li><Link to='sobre'>Sobre</Link></li>
+          <li><Link to='contato'>Contato</Link></li>
+          <li><Link to='cliente'>Portal do Cliente</Link></li>
+        </ul>
+        <label htmlFor='check'>
+        <div className='hamburger'>
+          <input id='check' type="checkbox" />
+          <div className='t1'></div>          
+          <div className='t2'></div>
+          <div className='t3'></div>
+        </div>
+        </label>
+        
+      </nav>
+      <Carousel images={images} textSlide={textSlide} />
+>>>>>>> d5f58ae (Inserção da logo)
 
   </header>
 )
