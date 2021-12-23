@@ -145,5 +145,11 @@
     width:40px;
     
   }
+  .previous:hover, .next:hover{
+    background:none;
+    border: none;
+      box-shadow: none;
+ 
+  }
 
 }
