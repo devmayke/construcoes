@@ -49,8 +49,8 @@ const images = [
       </nav>
       <Carousel images={images} textSlide={textSlide} />
 
-  </header>
-)
+    </header>
+  )
 }
 
 export default Header
