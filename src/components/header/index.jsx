@@ -46,7 +46,7 @@ const Header = (props) => {
         </label>
         
       </nav>
-      <Carousel images={images} textSlide={textSlide} />
+      <Carousel className='carousel' footer={true} images={images} textSlide={textSlide} />
 
     </header>
   )
