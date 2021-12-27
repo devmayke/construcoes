@@ -38,12 +38,13 @@ nav{
 .menu-mobile{
   position: absolute;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   right: -1px;
   top: 0;
   height: 285vh; 
-  background:rgb(10,41,79) ;
+  background:rgba(10,41,79,1) ;
   transition: width .3s, opacity .5s;
- 
   z-index:4 ;
 }
 header nav::after{
@@ -142,6 +143,38 @@ a{
   .hamburger{
     display:flex;
   }
+  .menu-vertical{
+    width: 100%;
+    margin-top: 70vh;  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    color:white;
+    border: 1px solid purple;
+  }
+  .menu-vertical li{
+    margin:10px;
+    font-size: 24px;
+    list-style: none;
+  }
+  .menu-vertical li:hover{
+    border:1px solid white;
+  }
+  .logo-mobile{
+    width: 95px;
+    height: 95px;
+    margin-bottom: 15px;
+    display:flex;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+  }
+  .logo-mobile img{
+    
+  }
+
 
 
 

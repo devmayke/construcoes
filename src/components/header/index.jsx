@@ -11,7 +11,7 @@ const Header = (props) => {
   function checkMenu() {
 
     if (menuChecked.current.checked) {
-      setMenuMobile({ width:'80%', opacity:'1'})
+      setMenuMobile({ width:'101%', opacity:'1'})
     } else {
       setMenuMobile({width:'0%', opacity:'0'})
     }
@@ -58,7 +58,20 @@ const Header = (props) => {
           </div>
         </label>
       </nav>
-      <div style={{ width:menuMobile.width, opacity:menuMobile.opacity}} className='menu-mobile'></div>
+      <div style={{ width:menuMobile.width, opacity:menuMobile.opacity}} className='menu-mobile'>
+      <nav>
+        
+        <ul className='menu-vertical'>
+          <li style={{ marginBottom:'45px'}} ><span className='logo-mobile' style={{margin:'auto',display:'flex',flexDirection:'column', alignItems:'center', justifyContent:'center'}}><img src={logo} alt="logo Binho construções" /></span><p style={{padding:'10px',fontSize:'20px'}}>Binho Construções</p></li>
+          <li><Link to='construcoes'>Construções</Link></li>
+          <li><Link to='sobre'>Sobre</Link></li>
+          <li><Link to='contato'>Contato</Link></li>
+          <li><Link to='cliente'>Portal do Cliente</Link></li>
+          <li>Redes sociais</li>
+        </ul>
+      </nav>
+        
+      </div>
       <Carousel className='carousel' footer={true} images={images} textSlide={textSlide} />
 
     </header>
