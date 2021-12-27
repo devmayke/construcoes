@@ -3,15 +3,27 @@ import './header.css'
 import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
 import logo from './Captura-de-tela-2021-12-23-152415.svg'
+import { useState, useRef } from 'react'
 const Header = (props) => {
+  const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0'})
+  
+  const menuChecked = useRef()
+  function checkMenu() {
+
+    if (menuChecked.current.checked) {
+      setMenuMobile({ width:'80%', opacity:'1'})
+    } else {
+      setMenuMobile({width:'0%', opacity:'0'})
+    }
+  }
 
 
-const images = [
-  "https://artia.com/wp-content/uploads/2015/07/obras.jpg",
-  "https://constructapp.io/shared/uploads/2017/05/imprevisto-em-obras-2.jpg",
-  "https://ibecensino.org.br/wp-content/uploads/2019/07/04_Planejamento_controle_obras.png",
-  "https://blog.belgobekaert.com.br/wp-content/uploads/2019/09/GettyImages-628578920-1.jpg"
-]
+  const images = [
+    "https://artia.com/wp-content/uploads/2015/07/obras.jpg",
+    "https://constructapp.io/shared/uploads/2017/05/imprevisto-em-obras-2.jpg",
+    "https://ibecensino.org.br/wp-content/uploads/2019/07/04_Planejamento_controle_obras.png",
+    "https://blog.belgobekaert.com.br/wp-content/uploads/2019/09/GettyImages-628578920-1.jpg"
+  ]
 
   const textSlide = {
     title: [
@@ -38,15 +50,15 @@ const images = [
           <li><Link to='cliente'>Portal do Cliente</Link></li>
         </ul>
         <label htmlFor='check'>
-        <div className='hamburger'>
-          <input id='check' type="checkbox" />
-          <div className='t1'></div>          
-          <div className='t2'></div>
-          <div className='t3'></div>
-        </div>
+          <div className='hamburger'>
+            <input ref={menuChecked} onChange={() => { checkMenu() }} id='check' type="checkbox" />
+            <div className='t1'></div>
+            <div className='t2'></div>
+            <div className='t3'></div>
+          </div>
         </label>
-        
       </nav>
+      <div style={{ width:menuMobile.width, opacity:menuMobile.opacity}} className='menu-mobile'></div>
       <Carousel className='carousel' footer={true} images={images} textSlide={textSlide} />
 
     </header>

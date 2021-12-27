@@ -35,6 +35,17 @@ nav{
   display:flex;
   list-style: none ;
 }
+.menu-mobile{
+  position: absolute;
+  display: flex;
+  right: -1px;
+  top: 0;
+  height: 285vh; 
+  background:rgb(10,41,79) ;
+  transition: width .3s, opacity .5s;
+ 
+  z-index:4 ;
+}
 header nav::after{
   position: fixed;
   top:9.8vh;
