@@ -1,10 +1,11 @@
 .main{
+    height: fit-content;
 
 
 }
 @media screen and (max-width:600px){
     .main{
-        min-height:300vh; 
+     
     }
 
 }
