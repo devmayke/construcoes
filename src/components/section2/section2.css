@@ -97,5 +97,6 @@
     }   
     .group2{
         max-height:fit-content;
+        margin-bottom: 100px;
     }
 }
