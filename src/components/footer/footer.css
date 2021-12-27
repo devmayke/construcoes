@@ -33,15 +33,20 @@ img{
 }
 .contato-footer{
     width:35%;
-    border:1px solid green;
     display:flex;
     flex-direction: column;
     justify-content: start;
     align-items: start;
 }
+.contato-footer details{
+    max-width:50%;
+    margin:40px 0 0 0;
+    padding:0;
+    color:white;
+
+}
 .menu-footer{
     width:35%;
-    border:1px solid green;
 }
 .menu-footer-{
     list-style: none;
@@ -53,5 +58,18 @@ img{
 .menu-footer- li:hover{
     border:1px solid white;
     border-radius:3px;
+}
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato-footer details{
+  
+        width: 100vw;
+    
+    
+    }
 }
 
