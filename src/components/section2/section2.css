@@ -64,6 +64,7 @@
 
 @media screen and (max-width:600px) {
     .section2{
+        height: fit-content;
         flex-direction: column;
         flex-wrap: nowrap;
     }
@@ -89,13 +90,17 @@
         flex-grow: 1;
     }
     .carousel-article{
+        position: static;
         min-width: 100vw;
         border-radius: 0px;
     }
     .carousel-article img{
+        position: static;
+
         min-width: 100vw;
     }   
     .group2{
         max-height:fit-content;
+        margin-bottom: 100px;
     }
 }
