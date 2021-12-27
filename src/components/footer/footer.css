@@ -1,20 +1,63 @@
 .footer{
     max-width:100vw;
-    height:60vh;
-    /* background-image: url('https://mapa-da-obra-producao.s3.amazonaws.com/wp-content/uploads/2018/11/sondagem-industria.jpg'); */
-    background-size: cover;    
-    background-repeat: no-repeat;
-};
-.wrapper-img{
-    position: absolute;
-    background:rgba(0,0,0,.5);
-    max-width:100vw;
-    height:60vh;
-    z-index:1000000;
+    height:70vh;
+    background:#0A294F;
+    display:flex;
+    color:white;
 }
-.footer img{
-    position: relative;
-    width: 100%;
-    height:100%;
-    filter: blur(3px);
+img{
+    /* filter:drop-shadow(4px 4px 10px blue); */
 }
+.logo-footer{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-footer h1{
+    font-size: 26px;
+
+}
+.contato-footer{
+    width:35%;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.contato-footer details{
+    max-width:50%;
+    margin:40px 0 0 0;
+    padding:0;
+    color:white;
+
+}
+.menu-footer{
+    width:35%;
+}
+.menu-footer-{
+    list-style: none;
+    color: white;
+}
+.menu-footer- li{
+    padding:5px;
+}
+.menu-footer- li:hover{
+    border:1px solid white;
+    border-radius:3px;
+}
+@media screen and (max-width:600px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contato-footer details{
+  
+        width: 100vw;
+    
+    
+    }
+}
+
