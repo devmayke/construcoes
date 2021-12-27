@@ -1,18 +1,9 @@
-<<<<<<< HEAD
-import './header.css'
-import Carousel from '../carousel'
-import { Link } from 'react-router-dom'
-
-const Header = (props) => {
-
-=======
 
 import './header.css'
 import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
 import logo from './Captura-de-tela-2021-12-23-152415.svg'
 const Header = (props) => {
->>>>>>> dev
 
 
   const images = [
