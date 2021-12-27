@@ -68,6 +68,8 @@
         flex-wrap: nowrap;
     }
     .section2 .article{
+        min-height: 210px;
+        height:fit-content;
         width: calc(100% - 20px);
 
     }
@@ -83,9 +85,17 @@
     .group1, .group2{
         width: 100%;
         flex-direction: column;
+        height: fit-content;
         flex-grow: 1;
     }
-       
-      
-       
+    .carousel-article{
+        min-width: 100vw;
+        border-radius: 0px;
+    }
+    .carousel-article img{
+        min-width: 100vw;
+    }   
+    .group2{
+        max-height:fit-content;
+    }
 }
