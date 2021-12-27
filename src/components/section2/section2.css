@@ -69,7 +69,7 @@
         flex-wrap: nowrap;
     }
     .section2 .article{
-        min-height: 210px;
+        min-height: 100%;
         height:fit-content;
         width: calc(100% - 20px);
 
@@ -84,6 +84,7 @@
        
     }
     .group1, .group2{
+        max-width: 100%;
         width: 100%;
         flex-direction: column;
         height: fit-content;
@@ -101,6 +102,6 @@
     }   
     .group2{
         max-height:fit-content;
-        margin-bottom: 100px;
+    
     }
 }
