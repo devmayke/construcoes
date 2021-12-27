@@ -1,6 +1,8 @@
 import './footer.css'
 import logo from './Captura-de-tela-2021-12-23-152415.svg'
 import { Link } from 'react-router-dom'
+import "animate.css/animate.min.css"
+import 'animate.css';
 
 export default function Footer() {
     return (
@@ -29,7 +31,7 @@ export default function Footer() {
             <section className='menu-footer'>
                 Contato
             </section>
-            <a href="https://wa.me/5548999973102?&text=Olá%20Binho%20Construções" target='_blank'>WhatsApp</a>
+            <a className='animate__animated animate__pulse animate__infinite' href="https://wa.me/5548999973102?&text=Olá%20Binho%20Construções" target='_blank'></a>
 
 
 
