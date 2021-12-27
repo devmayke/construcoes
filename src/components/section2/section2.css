@@ -97,7 +97,7 @@
     }
     .carousel-article img{
         position: static;
-
+        height:calc(40vh - 10px);
         min-width: 100vw;
     }   
     .group2{
