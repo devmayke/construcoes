@@ -9,15 +9,15 @@ import tiktok from './tik-tok.png'
 import instagram  from './instagram.png'
 import whatsapp from './whatsapp.png'
 const Header = (props) => {
-  const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0', background:'rgba(0,0,0, .7)', border:'1px solid white'})
+  const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0', background:'rgba(0,0,0, .7)', border:'1px solid white', display:'none'})
   
   const menuChecked = useRef()
   function checkMenu() {
 
     if (menuChecked.current.checked) {
-      setMenuMobile({ width:'101%', opacity:'1', opacity2:'0', background:'rgba(0,0,0, 0)', border:'none'})
+      setMenuMobile({ width:'101%', opacity:'1', opacity2:'0', background:'rgba(0,0,0, 0)', border:'none', display:'flex'})
     } else {
-      setMenuMobile({ width:'0%', opacity:'0', opacity2:'1',background:'rgba(0,0,0, .7)', border:'1px solid white'})
+      setMenuMobile({ width:'0%', opacity:'0', opacity2:'1',background:'rgba(0,0,0, .7)', border:'1px solid white', display:'none'})
     }
   }
 
@@ -62,7 +62,7 @@ const Header = (props) => {
           </div>
         </label>
       </nav>
-      <div style={{ width:menuMobile.width, opacity:menuMobile.opacity}} className='menu-mobile'>
+      <div style={{ width:menuMobile.width, opacity:menuMobile.opacity, display:menuMobile.display}} className='menu-mobile'>
       <nav >
         
         <ul className='menu-vertical'>
