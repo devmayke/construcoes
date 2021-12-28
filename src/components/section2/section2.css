@@ -1,10 +1,7 @@
 .section2{
     height:60vh; 
     max-width: 100%;
-
-
-    display:flex;
-   
+    display:flex;   
     padding:10px;
     /* overflow: hidden; */
    
@@ -13,10 +10,9 @@
     width: calc(100% - 20px);    
     max-height: 50%;
     height: calc(50% - 20px);
-
     margin:10px;
     padding: 20px;
-    border: 1px solid black;
+    border: 2px solid rgba(10,41,79,.8);
     border-radius: 10px;
 }
 .section2 article h1{
@@ -50,13 +46,14 @@
   }
   .carousel-article{
       position: relative;
-      max-height:55vh;
-      border-radius: 15px;
+      max-height:calc(55vh - 4px);
+      border:2px solid rgba(10,41,79,.6);
+      border-radius: 10px;
       overflow: hidden;
 
   }
   .carousel-article img{
-    height:calc(55vh - 10px);
+    height:calc(55vh - 14px);
  
  
 
