@@ -9,15 +9,15 @@ import tiktok from './tik-tok.png'
 import instagram  from './instagram.png'
 import whatsapp from './whatsapp.png'
 const Header = (props) => {
-  const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0'})
+  const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0', background:'rgba(0,0,0, .7)', border:'1px solid white'})
   
   const menuChecked = useRef()
   function checkMenu() {
 
     if (menuChecked.current.checked) {
-      setMenuMobile({ width:'101%', opacity:'1', opacity2:'0'})
+      setMenuMobile({ width:'101%', opacity:'1', opacity2:'0', background:'rgba(0,0,0, 0)', border:'none'})
     } else {
-      setMenuMobile({width:'0%', opacity:'0', opacity2:1})
+      setMenuMobile({ width:'0%', opacity:'0', opacity2:'1',background:'rgba(0,0,0, .7)', border:'1px solid white'})
     }
   }
 
@@ -45,9 +45,9 @@ const Header = (props) => {
   }
   return (
     <header className='header'>
-      <nav>
+      <nav style={{background:menuMobile.background, borderBottom:menuMobile.border}} >
         <div className='logo' style={{opacity:menuMobile.opacity2}}><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
-        <ul className='menu'>
+        <ul style={{opacity:menuChecked.opacity1}} className='menu'>
           <li><Link to='construcoes'>Construções</Link></li>
           <li><Link to='sobre'>Sobre</Link></li>
           <li><Link to='contato'>Contato</Link></li>
@@ -63,7 +63,7 @@ const Header = (props) => {
         </label>
       </nav>
       <div style={{ width:menuMobile.width, opacity:menuMobile.opacity}} className='menu-mobile'>
-      <nav>
+      <nav >
         
         <ul className='menu-vertical'>
           <li style={{ marginBottom:'20px'}} ><span className='logo-mobile' style={{margin:'auto',display:'flex',flexDirection:'column', alignItems:'center', justifyContent:'center'}}><img src={logo} alt="logo Binho construções" /></span><p style={{padding:'10px',fontSize:'20px'}}>Binho Construções</p></li>

@@ -11,9 +11,7 @@ nav{
   width: 100%;
   display:flex;
   align-items: center;
-  background: rgba(0,0,0, .7);
   z-index:5;
-  border-bottom: 1px solid white;
 }
 
 .logo{
@@ -34,18 +32,19 @@ nav{
   flex:1;
   display:flex;
   list-style: none ;
+
 }
 .menu-mobile{
-  position: absolute;
+  position:fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
   right: -1px;
   top: 0;
-  height: 285vh; 
+  height: 100vh; 
   background:rgba(10,41,79,1) ;
   transition: width .3s, opacity .5s;
-  z-index:4 ;
+  z-index:4;
 }
 header nav::after{
   position: fixed;
@@ -75,15 +74,18 @@ header nav::after{
   width: fit-content;
   white-space: nowrap;
   color:white;
+  background: rgba(0,0,0, 0);
 }
 .menu li:hover{
-  border-bottom: 2px solid rgba(255, 165, 0, 0.631);
+  border-bottom: 2px solid white;
 }
 a{
   all:unset;
   padding: 15px 1vw;
   cursor: pointer;
   letter-spacing: 2px;
+  background: none;
+  
 }
 #check{
   display:none;
@@ -136,7 +138,7 @@ a{
   transform: rotate(-45deg) translate(5px,-8px);
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:600px){
   .menu{
     display:none;
   }
@@ -183,4 +185,6 @@ a{
     padding:5px;
     background-size: cover;    
   }
+
+
 }
