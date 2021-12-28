@@ -4,6 +4,10 @@ import Carousel from '../carousel'
 import { Link } from 'react-router-dom'
 import logo from './Captura-de-tela-2021-12-23-152415.svg'
 import { useState, useRef } from 'react'
+import facebook from './facebook.png'
+import tiktok from './tik-tok.png'
+import instagram  from './instagram.png'
+import whatsapp from './whatsapp.png'
 const Header = (props) => {
   const [menuMobile, setMenuMobile] = useState({ width:'0%', opacity:'0'})
   
@@ -62,12 +66,19 @@ const Header = (props) => {
       <nav>
         
         <ul className='menu-vertical'>
-          <li style={{ marginBottom:'45px'}} ><span className='logo-mobile' style={{margin:'auto',display:'flex',flexDirection:'column', alignItems:'center', justifyContent:'center'}}><img src={logo} alt="logo Binho construções" /></span><p style={{padding:'10px',fontSize:'20px'}}>Binho Construções</p></li>
+          <li style={{ marginBottom:'20px'}} ><span className='logo-mobile' style={{margin:'auto',display:'flex',flexDirection:'column', alignItems:'center', justifyContent:'center'}}><img src={logo} alt="logo Binho construções" /></span><p style={{padding:'10px',fontSize:'20px'}}>Binho Construções</p></li>
           <li><Link to='construcoes'>Construções</Link></li>
           <li><Link to='sobre'>Sobre</Link></li>
           <li><Link to='contato'>Contato</Link></li>
           <li><Link to='cliente'>Portal do Cliente</Link></li>
-          <li>Redes sociais</li>
+          <li className='redes-mobile'>
+            <ul>
+              <li><img src={facebook} alt="" /></li>
+              <li><img src={tiktok} alt="" /></li>
+              <li><img src={instagram} alt="" /></li>
+              <li><img src={whatsapp} alt="" /></li>
+            </ul>
+          </li>
         </ul>
       </nav>
         
