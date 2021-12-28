@@ -149,7 +149,7 @@ a{
   }
   .menu-vertical{
     width: 100%;
-    margin-top: 90vh;  
+    margin-top: 78vh;  
     display:flex;
     flex-direction: column;
     justify-content: center;    
