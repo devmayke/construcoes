@@ -35,8 +35,9 @@ nav{
 
 }
 .menu-mobile{
+  display:none;
   position:fixed;
-  display: flex;
+  
   flex-direction: column;
   align-items: center;
   right: -1px;
@@ -141,6 +142,9 @@ a{
 @media screen and (max-width:600px){
   .menu{
     display:none;
+  }
+  .menu-mobile{
+    display:flex;
   }
 
   .hamburger{
