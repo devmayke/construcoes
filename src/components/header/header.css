@@ -161,9 +161,7 @@ a{
     font-size: 22px;
     list-style: none;
   }
-  .menu-vertical li:hover{
-    border:1px solid white;
-  }
+ 
   .logo-mobile{
     width: 95px;
     height: 95px;
