@@ -140,9 +140,7 @@ a{
   .menu{
     display:none;
   }
-  .logo{
-    opacity: 0;
-  }
+
   .hamburger{
     display:flex;
    

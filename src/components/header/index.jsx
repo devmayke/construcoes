@@ -15,9 +15,9 @@ const Header = (props) => {
   function checkMenu() {
 
     if (menuChecked.current.checked) {
-      setMenuMobile({ width:'101%', opacity:'1'})
+      setMenuMobile({ width:'101%', opacity:'1', opacity2:'0'})
     } else {
-      setMenuMobile({width:'0%', opacity:'0'})
+      setMenuMobile({width:'0%', opacity:'0', opacity2:1})
     }
   }
 
@@ -46,7 +46,7 @@ const Header = (props) => {
   return (
     <header className='header'>
       <nav>
-        <div className='logo'><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
+        <div className='logo' style={{opacity:menuMobile.opacity2}}><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
         <ul className='menu'>
           <li><Link to='construcoes'>Construções</Link></li>
           <li><Link to='sobre'>Sobre</Link></li>
