@@ -64,11 +64,14 @@
         height: fit-content;
         flex-direction: column;
         flex-wrap: nowrap;
+        max-width: 100%;
+        padding: 0;
     }
     .section2 .article{
         min-height: 100%;
         height:fit-content;
         width: calc(100% - 20px);
+        max-width: 100%;
 
     }
 
@@ -86,19 +89,23 @@
         flex-direction: column;
         height: fit-content;
         flex-grow: 1;
+        padding: 0;
     }
     .carousel-article{
         position: static;
-        min-width: 100vw;
+        max-width: 100vw;
+        
         border-radius: 0px;
     }
     .carousel-article img{
         position: static;
         height:calc(40vh - 10px);
-        min-width: 100vw;
+        width: 100%;
+        max-width: 100vw;
     }   
     .group2{
         max-height:fit-content;
+        max-width: 100vh;
     
     }
 }

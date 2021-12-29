@@ -2,8 +2,17 @@ import './contato.css'
 export default () => {
     return (
         <section className='section3'>
-            <span style={{width:"100%", display:'flex', flexDirection:'column', justifyContent:'center', alignItems:"center"}}>
-            <h1 style={{margin:'0 0 10px 0'}}>Deixe sua mensagem</h1>
+            <span>
+            <span></span>
+            <article className='servicos'>
+            
+
+            </article>
+            </span>
+         
+            
+            <span>
+            <h1 >Deixe sua mensagem</h1>
             <form  className="contato" action="https://formsubmit.co/devmayke@gmail.com" method='POST'>
                     <label htmlFor="nome">Nome</label>
                     <input id='nome' name="name"  type="text" placeholder='Digite seu nome' required/>
