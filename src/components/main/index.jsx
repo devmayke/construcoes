@@ -9,8 +9,9 @@ import Contato from '../contato'
 const Main = () => {
   const [resize, setResize ] = useState('fit-content')
   useEffect(()=>{
-    window.addEventListener('keyboardDidShow', function () {
+    window.addEventListener('keyboardDidShow', function (e) {
       setResize('600vh')
+      console.log(e)
   });
   },[window.onresize])
   return (
