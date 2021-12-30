@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './main.css'
 
 import Section1 from '../section1'
@@ -7,9 +7,14 @@ import Contato from '../contato'
 
 
 const Main = () => {
+  const [resize, setResize ] = useState('fit-content')
+  useEffect(()=>{
+setResize('600vh')
+  },[window.onresize])
   return (
+  
 
-    <main className='main'>
+    <main style={{height:resize}} className='main'>
       <Section1/> 
       <Section2/>
       <Contato/>          
