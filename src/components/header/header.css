@@ -149,6 +149,9 @@ a{
   }
   .menu-mobile{
     display:flex;
+    z-index: 7;
+       
+
   }
 
   .hamburger{

@@ -31,7 +31,7 @@ export default function Footer() {
             <section className='menu-footer'>
                 Contato
             </section>
-            <a className='animate__animated animate__pulse animate__infinite' href="https://wa.me/5548999973102?&text=Olá%20Binho%20Construções" target='_blank'></a>
+            <a style={{zIndex:'6'}} className='animate__animated animate__pulse animate__infinite' href="https://wa.me/5548999973102?&text=Olá%20Binho%20Construções" target='_blank'></a>
 
 
 

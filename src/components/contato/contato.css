@@ -105,6 +105,12 @@ max-height:40px;
     .section3{
         flex-direction: column;
         }
+        .section3 span:nth-child(2){
+            z-index: 4;
+       
+
+
+        }
         
         .servicos{
             padding: 5px;
@@ -136,8 +142,6 @@ max-height:40px;
     }
     .contato{
         font-size: 18px;
-        z-index: 4;
-       
     }
     
     .servicos-item{
