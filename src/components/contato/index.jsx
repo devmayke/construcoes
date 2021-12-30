@@ -4,6 +4,7 @@ import carpintaria from './assets/serra-manual.png'
 import eletrica from './assets/carga-eletrica.png'
 import hidraulica from './assets/torneira.png'
 import pintura from './assets/rolo-de-pintura.png'
+import camera from './assets/camera-de-seguranca.png'
 
 export default () => {
     return (
@@ -16,6 +17,7 @@ export default () => {
                  <div className='servicos-item'><div className='circle'><img src={eletrica } alt="" /></div><h1 className='servicos-nome'>Elétrica</h1></div>
                  <div className='servicos-item'><div className='circle'><img src={hidraulica} alt="" /></div><h1 className='servicos-nome'>Hidráulica</h1></div>
                  <div className='servicos-item'><div className='circle'><img src={pintura} alt="" /></div><h1 className='servicos-nome'>Pintura</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={camera} alt="" /></div><h1 className='servicos-nome'>Instalações</h1></div>
             </article>
             </span>      
             <span>

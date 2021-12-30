@@ -30,7 +30,6 @@ align-items: center;
 
 } */
 .section3 span:nth-child(1) .servicos h1{
-    text-align: start;
     margin: 10px;
 }
 
@@ -43,14 +42,28 @@ align-items: center;
     padding: 20px 40px;
     border-radius: 10px;
 } 
+.servicos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url('./assets/Captura-de-tela-2021-12-23-152415.svg');
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;  
+
+
+}
 .servicos-item{
-    display:flex;
+    display:flex;    
+    flex-direction: column;
+    justify-content: center;
+  
     align-items: center;
     margin: 16px;
+    width: calc(50% - 40px);
 } 
 .servicos-item .circle{
-    width: 60px;
-    height:60px;
+    width: 65px;
+    height:65px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -121,6 +134,9 @@ max-height:40px;
     
         width:90vw;
 
+    }
+    .contato{
+        font-size: 18px;
     }
     
     .servicos-item{
