@@ -5,8 +5,15 @@ import eletrica from './assets/carga-eletrica.png'
 import hidraulica from './assets/torneira.png'
 import pintura from './assets/rolo-de-pintura.png'
 import camera from './assets/camera-de-seguranca.png'
+import { useEffect, useRef } from 'react'
 
 export default () => {
+    const focus = useRef()
+    useEffect(()=>{
+
+        console.log(focus.current.name)
+
+    },[focus.current])
     return (
         <section className='section3'>
             <span>
@@ -24,14 +31,14 @@ export default () => {
             <h1 >Deixe sua mensagem</h1>
             <form  className="contato" action="https://formsubmit.co/devmayke@gmail.com" method='POST'>
                     <label htmlFor="nome">Nome</label>
-                    <input id='nome' name="name"  type="text" placeholder='Digite seu nome' required/>
+                    <input ref={focus} id='nome' name="name"  type="text" placeholder='Digite seu nome' required/>
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email"/>
+                    <input ref={focus} type="email" name="email" placeholder="Digite seu email"/>
                     <label htmlFor="phone">Celular</label>
-                    <input type="number" id="phone" name="phone" placeholder='Digite seu celular com DDD' required/> 
-                    <input type="hidden" name="_captcha" value="false"></input>
-                    <input type="hidden" name="_autoresponse" value="Olá, recebi seu email, assim que possível entrarei em contato. Obrigado!"/>
-                    <input type="hidden" name="_next" value='https://binho-construcoes.herokuapp.com/enviado'></input>
+                    <input ref={focus} type="number" id="phone" name="phone" placeholder='Digite seu celular com DDD' required/> 
+                    <input ref={focus} type="hidden" name="_captcha" value="false"></input>
+                    <input ref={focus} type="hidden" name="_autoresponse" value="Olá, recebi seu email, assim que possível entrarei em contato. Obrigado!"/>
+                    <input ref={focus} type="hidden" name="_next" value='https://binho-construcoes.herokuapp.com/enviado'></input>
                 <label htmlFor="mensagem">Mensagem</label>
                 <textarea id="mensagem" name="message" id="" cols="30" rows="10" placeholder='Digite sua mensagem' required></textarea>
                 <button  type='submit'>Enviar</button>
