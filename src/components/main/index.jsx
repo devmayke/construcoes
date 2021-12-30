@@ -9,12 +9,14 @@ import Contato from '../contato'
 const Main = () => {
   const [resize, setResize ] = useState('fit-content')
   useEffect(()=>{
-setResize('600vh')
+    window.addEventListener('keyboardDidShow', function () {
+      setResize('600vh')
+  });
   },[window.onresize])
   return (
   
 
-    <main style={{height:resize}} className='main'>
+    <main style={{height:resize}}  className='main'>
       <Section1/> 
       <Section2/>
       <Contato/>          

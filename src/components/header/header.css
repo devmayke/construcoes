@@ -22,10 +22,14 @@ nav{
   display:flex;
   align-items: center;
   color: white;
+  
 }
 .logo img{
+  width: 60px;
+  height:60px;
   margin-left: 5px;
   margin-right: 5px;
+  
 }
 .logo p{
   margin-top: 20px;
@@ -149,6 +153,8 @@ a{
   }
   .menu-mobile{
     display:flex;
+       
+
   }
 
   .hamburger{
