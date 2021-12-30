@@ -16,19 +16,12 @@ align-items: center;
     flex:1;
 }
 
-.section3 span:nth-child(2) h1{
+.section3 span:nth-child(2) h1, .section3 span:nth-child(1) h1{
     width: 100%;
     text-align: center;
     flex:1;
-
-
 }  
-.servicos span{
-    width: 100%;
-    flex:1;
- 
 
-}
 .servicos, .contato{
     width: 100%;
     flex:8;
@@ -37,7 +30,6 @@ align-items: center;
     border:2px solid rgba(10,41,79,.8);
     padding: 20px 40px;
     border-radius: 10px;
-
 }  
 
 .contato label{
@@ -65,17 +57,32 @@ align-items: center;
 .contato textarea{
     resize: none;
 }
+
 @media screen and (max-width:600px){
     .section3{
         flex-direction: column;
         }
-    .contato{
-        display:flex;
-        padding: 10px;
-        flex-direction: column;
-        border:2px solid rgba(10,41,79,.8);
-        width:95%;
-        border-radius: 10px;
+        
+        .servicos{
+            padding: 5px;
+            justify-content: center;
+        }
+        .section3 span:nth-child(2) h1, .section3 span:nth-child(1) h1{
+           margin:7px;
+           color:rgb(10,41,79);
+        }  
+        
+        .section3 span:nth-child(1) .servicos .servicos-item h1{
+            text-align: start;
+            width:100%;
+        }
+  
+    .contato, .servicos{
+    
+        padding: 25px;
+    
+        width:90vw;
+
     }
 
 }
