@@ -1,12 +1,11 @@
 .main{
-    min-height:fit-content;
+    height:100%;
     
 
 
 }
 @media screen and (max-width:600px){
     .main{
-        margin-bottom: 50px;
     }
 
 }
