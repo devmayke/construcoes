@@ -8,6 +8,7 @@ align-items: center;
 
 .section3 span:nth-child(1), .section3 span:nth-child(2){
     margin: 0px 10px;
+    min-height: 86vh;
     height: 86vh;
     max-height:86vh;
     display:flex;
@@ -20,7 +21,18 @@ align-items: center;
     width: 100%;
     text-align: center;
     flex:1;
-}  
+} 
+/* .section3 span:nth-child(1) .servicos {
+    height: 86vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex:1;
+
+} */
+.section3 span:nth-child(1) .servicos h1{
+    text-align: start;
+    margin: 10px;
+}
 
 .servicos, .contato{
     width: 100%;
@@ -30,8 +42,27 @@ align-items: center;
     border:2px solid rgba(10,41,79,.8);
     padding: 20px 40px;
     border-radius: 10px;
-}  
+} 
+.servicos-item{
+    display:flex;
+    align-items: center;
+    margin: 16px;
+} 
+.servicos-item .circle{
+    width: 60px;
+    height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border:2px solid rgba(10,41,79,1);
 
+}
+.servicos-item img{
+max-width: 40px;
+max-height:40px;
+
+}
 .contato label{
     margin: 10px 0 5px 0;
     color: rgba(10,41,79,1);
@@ -65,17 +96,24 @@ align-items: center;
         
         .servicos{
             padding: 5px;
-            justify-content: center;
-        }
+            flex-wrap: wrap;
+           
+            }
         .section3 span:nth-child(2) h1, .section3 span:nth-child(1) h1{
            margin:7px;
            color:rgb(10,41,79);
         }  
         
         .section3 span:nth-child(1) .servicos .servicos-item h1{
-            text-align: start;
+            text-align: center;
             width:100%;
         }
+        .section3 span:nth-child(1) .servicos{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+       
   
     .contato, .servicos{
     
@@ -84,5 +122,16 @@ align-items: center;
         width:90vw;
 
     }
+    
+    .servicos-item{
+        flex: 1;
+      
+        width: 40%;
+        
+        margin: 10px;
+        flex-direction: column;
+
+        align-items: center;
+    } 
 
 }

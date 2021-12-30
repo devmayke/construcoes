@@ -1,5 +1,9 @@
 import './contato.css'
-
+import alvenaria from './assets/alvenaria.png'
+import carpintaria from './assets/serra-manual.png'
+import eletrica from './assets/carga-eletrica.png'
+import hidraulica from './assets/torneira.png'
+import pintura from './assets/rolo-de-pintura.png'
 
 export default () => {
     return (
@@ -7,15 +11,13 @@ export default () => {
             <span>
             <h1>Serviços</h1>
             <article className='servicos'>
-                 <div className='servicos-item'><h1>Hidráulica</h1></div>
-                 <div className='servicos-item'><h1>Hidráulica</h1></div>
-                 <div className='servicos-item'><h1>Hidráulica</h1></div>
-                 <div className='servicos-item'><h1>Hidráulica</h1></div>
-                 <div className='servicos-item'><h1>Hidráulica</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={carpintaria} alt="" /></div><h1 className='servicos-nome'>Carpintaria</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={eletrica } alt="" /></div><h1 className='servicos-nome'>Elétrica</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={hidraulica} alt="" /></div><h1 className='servicos-nome'>Hidráulica</h1></div>
+                 <div className='servicos-item'><div className='circle'><img src={pintura} alt="" /></div><h1 className='servicos-nome'>Pintura</h1></div>
             </article>
-            </span>
-         
-            
+            </span>      
             <span>
             <h1 >Deixe sua mensagem</h1>
             <form  className="contato" action="https://formsubmit.co/devmayke@gmail.com" method='POST'>
