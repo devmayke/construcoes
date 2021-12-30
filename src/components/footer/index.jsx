@@ -3,8 +3,16 @@ import logo from './Captura-de-tela-2021-12-23-152415.svg'
 import { Link } from 'react-router-dom'
 import "animate.css/animate.min.css"
 import 'animate.css';
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
+    const [wpmode, setWpmode] = useState('https://web.whatsapp.com/send?phone=5548999973102?&text=Olá%20Binho%20Construções')
+    useEffect(()=>{
+        console.log(navigator.userAgent.match(/iPad/i))
+        if(navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i) ){
+            setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
+           }       
+    },[])
     return (
         <footer className='footer'>
             <section className='logo-footer'>
@@ -31,7 +39,7 @@ export default function Footer() {
             <section className='menu-footer'>
                 Contato
             </section>
-            <a style={{zIndex:'6'}} className='animate__animated animate__pulse animate__infinite' href="https://wa.me/5548999973102?&text=Olá%20Binho%20Construções" target='_blank'></a>
+            <a style={{zIndex:'6'}} className='animate__animated animate__pulse animate__infinite' href={wpmode} target='_blank'></a>
 
 
 
