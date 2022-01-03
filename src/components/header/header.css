@@ -33,6 +33,7 @@ nav{
 }
 .logo p{
   margin-top: 20px;
+  font-size: 22px;
 }
 .menu{
   flex:1;
