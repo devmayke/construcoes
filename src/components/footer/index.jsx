@@ -37,13 +37,17 @@ export default function Footer() {
                         <li><Link to='cliente'>Portal do Cliente</Link></li>
                     </ul>
                 </details>
-                <p style={{marginTop:'30px'}}>Redes Sociais</p>
+                <span>
+                <p style={{marginTop:'30px', textAlign:'center'}}>Redes Sociais</p>
                 <ul className='menu-redes'> 
               <li><img src={facebook} alt="" /></li>
               <li><img src={tiktok} alt="" /></li>
               <li><img src={instagram} alt="" /></li>
               <li><img src={whatsapp} alt="" /></li>
             </ul>
+
+                </span>
+               
                 
             </section>
             <section className='menu-footer'>
@@ -51,7 +55,7 @@ export default function Footer() {
                     <h1 style={{marginBottom:'30px'}}>Sobre</h1>
                     <p style={{marginBottom:'45px'}}>A Binho Construções atua na grande Florianópolis desde 2007 executando projetos e serviços que vão desde o alicerce ao acabamento. 
                         Nossos profissionais estão preparados para executar serviços técnicos e sofisticados de instalações e execução de obras de todos os padrões. 
-                        Nosso compromisso como empresa se baseia na entrega rápida e no baixo custo, priorizando as normas técnicas e a satisfação do cliente.  </p>
+                        Nosso compromisso como empresa se baseia na entrega rápida e no baixo custo, priorizando as normas técnicas, a conduta profissional e principalemente, a satisfação do cliente.  </p>
                 
                 <span>
                 <p>Telefone: (48) 9997-3102</p>

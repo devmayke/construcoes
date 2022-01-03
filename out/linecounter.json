@@ -1,0 +1,501 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\PC\\Documents\\GitHub\\construcoes",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2022-01-03 18:35:21",
+            "filesum": 69,
+            "codesum": 18080,
+            "commentsum": 47,
+            "blanksum": 242,
+            "statistics": {
+                ".css": {
+                    "code": 717,
+                    "comment": 8,
+                    "blank": 102
+                },
+                ".jsx": {
+                    "code": 477,
+                    "comment": 2,
+                    "blank": 85
+                },
+                ".js": {
+                    "code": 39,
+                    "comment": 0,
+                    "blank": 11
+                },
+                ".svg": {
+                    "code": 54,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".json": {
+                    "code": 16714,
+                    "comment": 0,
+                    "blank": 3
+                },
+                ".md": {
+                    "code": 38,
+                    "comment": 12,
+                    "blank": 32
+                },
+                "": {
+                    "code": 18,
+                    "comment": 1,
+                    "blank": 5
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 20,
+                    "comment": 23,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 16645,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "filename": "public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 23,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "filename": "public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "filename": "q",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 32,
+                    "code": 38,
+                    "comment": 12,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\App.css"
+                },
+                {
+                    "blank": 4,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\App.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 145,
+                    "comment": 4,
+                    "filename": "src\\components\\carousel\\carousel.css"
+                },
+                {
+                    "blank": 6,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "src\\components\\carousel\\index.jsx"
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\alvenaria.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\camera-de-seguranca.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\contato\\assets\\Captura-de-tela-2021-12-23-152415.svg"
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\carga-eletrica.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\rolo-de-pintura.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\serra-manual.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\contato\\assets\\torneira.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 25,
+                    "code": 128,
+                    "comment": 0,
+                    "filename": "src\\components\\contato\\contato.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "src\\components\\contato\\index.jsx"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\footer\\Captura-de-tela-2021-12-23-152415.svg"
+                },
+                {
+                    "filename": "src\\components\\footer\\facebook.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 21,
+                    "code": 113,
+                    "comment": 1,
+                    "filename": "src\\components\\footer\\footer.css"
+                },
+                {
+                    "blank": 9,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "src\\components\\footer\\index copy.jsx"
+                },
+                {
+                    "blank": 11,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "src\\components\\footer\\index.jsx"
+                },
+                {
+                    "filename": "src\\components\\footer\\instagram.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\footer\\tik-tok.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\footer\\whatsapp.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\footer\\wp.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\footer\\wp.svg"
+                },
+                {
+                    "filename": "src\\components\\header\\Captura de tela 2021-12-23 152415.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\Captura-de-tela-2021-12-23-152415.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\facebook-square-brands.svg"
+                },
+                {
+                    "filename": "src\\components\\header\\facebook.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 19,
+                    "code": 185,
+                    "comment": 1,
+                    "filename": "src\\components\\header\\header.css"
+                },
+                {
+                    "blank": 13,
+                    "code": 79,
+                    "comment": 0,
+                    "filename": "src\\components\\header\\index.jsx"
+                },
+                {
+                    "filename": "src\\components\\header\\instagram.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\header\\tik-tok.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\components\\header\\whatsapp.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 6,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "src\\components\\main\\index.jsx"
+                },
+                {
+                    "blank": 3,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\components\\main\\main.css"
+                },
+                {
+                    "blank": 8,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "src\\components\\section1\\index.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 42,
+                    "comment": 1,
+                    "filename": "src\\components\\section1\\section1.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\components\\section2\\Captura-de-tela-2021-12-23-152415.svg"
+                },
+                {
+                    "blank": 9,
+                    "code": 77,
+                    "comment": 0,
+                    "filename": "src\\components\\section2\\index.jsx"
+                },
+                {
+                    "blank": 21,
+                    "code": 89,
+                    "comment": 1,
+                    "filename": "src\\components\\section2\\section2.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\pages\\cliente\\cliente.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\cliente\\index.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\pages\\construcoes\\construcoes.css"
+                },
+                {
+                    "blank": 3,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\construcoes\\index.jsx"
+                },
+                {
+                    "filename": "src\\pages\\contato\\20211222_123801.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "src\\pages\\contato\\a.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\pages\\contato\\contato.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\contato\\index.jsx"
+                },
+                {
+                    "filename": "src\\pages\\contato\\teste360.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\enviado\\index.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "src\\pages\\home\\index.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "src\\pages\\routes.jsx"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "src\\pages\\sobre\\index.jsx"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "src\\pages\\sobre\\sobre.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\state\\context.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "src\\state\\provider.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 15,
+                    "comment": 2,
+                    "filename": "src\\styled\\icons\\Icon.jsx"
+                }
+            ]
+        }
+    ]
+}
