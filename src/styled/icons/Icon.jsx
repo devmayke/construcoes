@@ -4,10 +4,11 @@ import styled from 'styled-components'
 
 export default styled.div`
   display:flex;
+  margin: 25px;
   justify-content:center;
   align-items:center;
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   border:2px solid ${props=>props.cor};
   border:1px solid rgba(255, 255, 255, 0.898);
 /* box-shadow: 0px 0px 8px 3px rgba(255,255,255,.4); */

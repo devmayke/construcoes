@@ -36,13 +36,13 @@ export default function Section2() {
             <div className="group1">
                 <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  >
                     <article >
-                        <h1 class="animate__animated animate__bounce animate__delay-2s" >Teste</h1>
+                        <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                     </article>
                 </ScrollAnimation>
                 <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn">
                     <article >
-                        <h1 class="animate__animated animate__bounce animate__delay-2s">Teste</h1>
+                        <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                     </article>
                 </ScrollAnimation>
