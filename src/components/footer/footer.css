@@ -97,6 +97,16 @@ span p{
     border:1px solid white;
     border-radius:3px;
 }
+.menu-footer span span{
+    display: flex;
+   align-items: center;
+}
+.menu-footer img{
+    width: 20px;
+    height:20px;
+    margin-right: 10px;
+    filter:invert(100%);
+}
 @media screen and (max-width:600px){
     .footer{
         flex-direction: column;
@@ -114,7 +124,7 @@ span p{
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
-    .contato-footer{
+    .contato-footer{ 
         order:3;
         margin: 0px;
     }

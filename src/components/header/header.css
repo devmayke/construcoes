@@ -39,6 +39,7 @@ nav{
   flex:1;
   display:flex;
   list-style: none ;
+  font-size: 20px;
 
 }
 .menu-mobile{
