@@ -24,10 +24,10 @@ export default function Nav(){
          <nav style={{ background: menuMobile.background, borderBottom: menuMobile.border }} >
             <div className='logo' style={{ opacity: menuMobile.opacity2 }}><img src={logo} alt="logo Binho construções" /><p>Binho Construções</p></div>
             <ul style={{ opacity: menuChecked.opacity1 }} className='menu'>
-                <li><Link to='servicos'>Serviços</Link></li>
-                <li><Link to='sobre'>Sobre</Link></li>
-                <li><Link to='contato'>Contato</Link></li>
-                <li><Link to='cliente'>Portal do Cliente</Link></li>
+                <li><Link to='/servicos'>Serviços</Link></li>
+                <li><Link to='/sobre'>Sobre</Link></li>
+                <li><Link to='/contato'>Contato</Link></li>
+                <li><Link to='/cliente'>Portal do Cliente</Link></li>
             </ul>
             <label htmlFor='check'>
                 <div className='hamburger'>
@@ -43,10 +43,10 @@ export default function Nav(){
         
         <ul className='menu-vertical'>
           <li style={{ marginBottom:'20px'}} ><span className='logo-mobile' style={{margin:'auto',display:'flex',flexDirection:'column', alignItems:'center', justifyContent:'center'}}><img src={logo} alt="logo Binho construções" /></span><p style={{padding:'10px',fontSize:'20px'}}>Binho Construções</p></li>
-          <li><Link to='servicos'>Serviços</Link></li>
-          <li><Link to='sobre'>Sobre</Link></li>
-          <li><Link to='contato'>Contato</Link></li>
-          <li><Link to='cliente'>Portal do Cliente</Link></li>
+          <li><Link to='/servicos'>Serviços</Link></li>
+          <li><Link to='/sobre'>Sobre</Link></li>
+          <li><Link to='/contato'>Contato</Link></li>
+          <li><Link to='/cliente'>Portal do Cliente</Link></li>
           <li className='redes-mobile'>
             <ul>
               <li><img src={facebook} alt="" /></li>

@@ -56,6 +56,9 @@ align-items: center;
     margin: 16px;
     width: calc(50% - 40px);
 } 
+.servicos-item > div{
+    cursor: pointer;
+}
 .servicos-item .circle{
     width: 65px;
     height:65px;

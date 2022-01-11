@@ -1,0 +1,50 @@
+*{
+    scroll-behavior: smooth;
+}
+.servicos-container{
+    
+
+}
+.section-services{
+    padding-top: 20vh;
+    width: 100%;
+    height: 100vh;
+    border:1px solid rgba(10,41,79,.6);
+}
+.section-services h1{
+text-align: center;
+}
+.servicos-nav{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    
+}
+.servicos-nav ul{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+
+}
+.servicos-nav ul li{
+    width:calc(100vw / 6);
+    display:flex;
+    justify-content: center;
+}
+@media screen and (max-width:600px){
+    .servicos-nav{
+        display:none;
+    }
+ 
+    .section-services{
+        padding:15px 5px;
+       
+    }
+    #alvenaria{
+        padding-top: 11vh;
+       
+    }
+}
