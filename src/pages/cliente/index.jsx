@@ -1,10 +1,16 @@
 import React from 'react'
+import Nav from '../../components/nav'
+import './cliente.css'
+
 
 const Cliente = () => {
   return (
-    <div className='cliente'>
-    página do Cliente      
-    </div>
+    <>
+      <Nav />
+      <div className='cliente'>
+        Página em construção
+      </div>
+    </>
   )
 }
 

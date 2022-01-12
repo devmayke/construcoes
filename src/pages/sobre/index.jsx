@@ -1,10 +1,16 @@
 import React from 'react'
+import Nav from '../../components/nav'
+import './sobre.css'
+
 
 const Sobre = () => {
   return (
-    <div className='sobre'>
-      página Sobre      
-    </div>
+    <>
+      <Nav />
+      <div className='servicos-sobre'>
+        Página em construção
+      </div>
+    </>
   )
 }
 
