@@ -11,8 +11,8 @@ export default function Nav() {
   const [menuMobile, setMenuMobile] = useState({ width: '0%', opacity: '0', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
   const [isChecked, setIsChecked] = useState(false)
   const menuChecked = useRef()
-  function checkMenu() {
 
+  function checkMenu() {
     if (menuChecked.current.checked) {
       setMenuMobile({ width: '101%', opacity: '1', opacity2: '0', background: 'rgba(0,0,0, 0)', border: 'none', display: 'flex' })
       setIsChecked(true)
@@ -21,22 +21,23 @@ export default function Nav() {
       setIsChecked(false)
     }
   }
+  
   function closeMenu(e) {
-    console.log(e.target.href)
-    console.log(e.target.li)
     if (window.location.pathname !== '/') {
       if (window.location.pathname === '/' + e.target.href.split('/')[e.target.href.split('/').length - 1]) {
         setIsChecked(false)
         setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
       } else if (window.location.pathname === '/') {
-        // console.log('/' + e.target.href.split('/')[e.target.href.split('/').length -1])
         setIsChecked(false)
         setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
       }
-
     }
-
-
+  }
+  function goToHomePage(e){
+    if (window.location.pathname == '/'){
+      setIsChecked(false)
+      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+    }
   }
 
 
@@ -64,15 +65,21 @@ export default function Nav() {
         <nav >
 
           <ul onClick={(e) => { closeMenu(e) }} className='menu-vertical'>
-            <li style={{ marginBottom: '20px' }} >
-              <label htmlFor="/">
-              <Link to="/" id='/'>
-                <div className='logo-mobile' style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                  <img src={logo} alt="logo Binho construções" />
-                </div>
-                <p style={{ padding: '10px', fontSize: '20px' }}>Binho Construções</p>
-              </Link>
-              </label>
+            <li  onClick={e=>{goToHomePage(e)}} style={{ marginBottom: '20px' }} >
+
+           
+
+                <Link to="/"  >
+                  <div className='logo-mobile' style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                    <img src={logo} alt="logo Binho construções" />
+                  </div>
+                  <p style={{ padding: '10px', fontSize: '20px' }}>Binho Construções</p>
+                </Link>
+
+
+
+ 
+
             </li>
             <li><Link to='/servicos'>Serviços</Link></li>
             <li><Link to='/sobre'>Sobre</Link></li>
