@@ -12,6 +12,7 @@ img{
 .menu-redes{
     list-style: none;
     display: flex;
+    padding-bottom: 25px;
 
 }
 .menu-redes img{
@@ -20,6 +21,7 @@ img{
     padding:5px;
     background-size: cover;
     margin-top: 20px;
+    cursor:pointer;
 }
 .footer a{
     position:fixed;
@@ -33,7 +35,6 @@ img{
     width: 50px;
     height:50px;
     padding: 5px;
-   
 }
 .logo-footer{
     width:30%;
@@ -41,11 +42,11 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
 }
 .logo-footer h1{
     font-size: 26px;
     white-space: nowrap;
-
 }
 .contato-footer{
     width:35%;
@@ -53,28 +54,22 @@ img{
     flex-direction: column;
     justify-content: start;
     align-items: start;
-    padding: 20px;
+    padding: 50px;
 }
 .contato-footer details{
     max-width:50%;
     margin:40px 0 0 0;
     color:white;
     cursor: pointer;
-
-
-
 }
 .menu-footer{
     width:35%;
     padding:  50px 20px;
-    
-
 }
 .menu-footer p{
     letter-spacing: 1px;
     margin: 5px 0;
     line-height: 25px;
-  
 }
 span p{
     font-size: 14px;
@@ -89,23 +84,26 @@ span p{
 .menu-footer- a{
     all: unset;  
     cursor:pointer;
- 
-
-
 }
 .menu-footer- li:hover{
     border:1px solid white;
     border-radius:3px;
 }
-.menu-footer span span{
+.contato-footer span span{
     display: flex;
-   align-items: center;
+    align-items: center;
+    margin: 15px 5px;
 }
-.menu-footer img{
+.contatos img{
     width: 20px;
     height:20px;
     margin-right: 10px;
     filter:invert(100%);
+}
+.contato-footer span h1{
+    font-size: 18px;
+    padding: 5px;
+    margin-bottom: 15px;
 }
 @media screen and (max-width:600px){
     .footer{
@@ -113,11 +111,10 @@ span p{
         justify-content: center;
         align-items: center;
         z-index:3;
-
-        
     }
     .logo-footer{ 
         padding-top: 30px;
+        margin-bottom: 0px;
     }
     .menu-footer{
         order:2;
@@ -127,19 +124,21 @@ span p{
     .contato-footer{ 
         order:3;
         margin: 0px;
+        padding: 0px 20px;
     }
   
     .contato-footer details{
         margin-bottom:20px;
-  
         width: 100vw;
-    
-    
+    }
+    .menu-footer p{
+        margin: 0px 0;
     }
 
     .footer section{
         width: 100%;
     }
+
  
 }
 

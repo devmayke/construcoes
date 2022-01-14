@@ -152,6 +152,12 @@
          
   
     }
+    .logo p{
+      font-size: 18px;
+      white-space: nowrap;
+      padding-right: 0px;
+      margin-right: 5px;
+    }
   
     .hamburger{
       display:flex;

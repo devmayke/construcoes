@@ -23,15 +23,12 @@ export default function Footer() {
     return (
         <footer className='footer'>
             <section className='logo-footer'>
-
                 <span >
                     <img src={logo} alt="" />
-
                 </span><h1>Binho Construções</h1>
-
             </section>
             <section className='contato-footer'>
-                <details style={{ color: 'white' }}>
+                {/* <details style={{ color: 'white' }}>
                     <summary style={{ padding: "20px 0", cursor: 'pointer' }}>Páginas</summary>
                     <ul className='menu-footer-'>
                         <li><Link to='construcoes'>Construções</Link></li>
@@ -39,18 +36,21 @@ export default function Footer() {
                         <li><Link to='contato'>Contato</Link></li>
                         <li><Link to='cliente'>Portal do Cliente</Link></li>
                     </ul>
-                </details>
+                </details> */}
                 <span>
-                    <p style={{ marginTop: '30px', textAlign: 'center' }}>Redes Sociais</p>
+                    <h1>Contato</h1>
                     <ul className='menu-redes'>
                         <li><img src={facebook} alt="" /></li>
                         <li><img src={tiktok} alt="" /></li>
                         <li><img src={instagram} alt="" /></li>
                         <li><img src={whatsapp} alt="" /></li>
                     </ul>
-
                 </span>
-
+                <span className='contatos'>
+                    <span><img src={telefone} alt="" /><p> (48) 9997-3102</p></span>
+                    <span><img src={gmail} alt="" /> <p> binhoconstrucoes2007@gmail.com</p></span>
+                    <span><img src={localizacao} alt="" /> <p> Rua Valdemiro Eli 800, Potecas-São José-SC</p></span>
+                </span>
 
             </section>
             <section className='menu-footer'>
@@ -59,15 +59,6 @@ export default function Footer() {
                     <p style={{ marginBottom: '45px' }}>A Binho Construções atua na grande Florianópolis desde 2007 executando projetos e serviços que vão desde o alicerce ao acabamento.
                         Nossos profissionais estão preparados para executar serviços técnicos e sofisticados de instalações e execução de obras de todos os padrões.
                         Nosso compromisso como empresa se baseia na entrega rápida e no baixo custo, priorizando as normas técnicas, a conduta profissional e principalemente, a satisfação do cliente.  </p>
-
-                    <span>
-                        <span><img src= {telefone} alt="" /><p> (48) 9997-3102</p></span>
-                        <span><img src={gmail} alt="" /> <p> binhoconstrucoes2007@gmail.com</p></span>
-                        <span><img src={localizacao} alt="" /> <p> Rua Valdemiro Eli 800, Potecas-São José-SC</p></span>
-                        
-                        
-                        
-                    </span>
                 </article>
 
             </section>

@@ -1,6 +1,5 @@
 import './nav.css'
 import { Link } from 'react-router-dom'
-
 import logo from './Captura-de-tela-2021-12-23-152415.svg'
 import facebook from './facebook.png'
 import tiktok from './tik-tok.png'
@@ -21,7 +20,7 @@ export default function Nav() {
       setIsChecked(false)
     }
   }
-  
+
   function closeMenu(e) {
     if (window.location.pathname !== '/') {
       if (window.location.pathname === '/' + e.target.href.split('/')[e.target.href.split('/').length - 1]) {
@@ -33,8 +32,8 @@ export default function Nav() {
       }
     }
   }
-  function goToHomePage(e){
-    if (window.location.pathname == '/'){
+  function goToHomePage(e) {
+    if (window.location.pathname == '/') {
       setIsChecked(false)
       setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
     }
@@ -62,24 +61,16 @@ export default function Nav() {
         </label>
       </nav>
       <div style={{ width: menuMobile.width, opacity: menuMobile.opacity, display: menuMobile.display }} className='menu-mobile'>
+
         <nav >
-
           <ul onClick={(e) => { closeMenu(e) }} className='menu-vertical'>
-            <li  onClick={e=>{goToHomePage(e)}} style={{ marginBottom: '20px' }} >
-
-           
-
-                <Link to="/"  >
-                  <div className='logo-mobile' style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                    <img src={logo} alt="logo Binho construções" />
-                  </div>
-                  <p style={{ padding: '10px', fontSize: '20px' }}>Binho Construções</p>
-                </Link>
-
-
-
- 
-
+            <li onClick={e => { goToHomePage(e) }} style={{ marginBottom: '20px' }} >
+              <Link to="/"  >
+                <div className='logo-mobile' style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                  <img src={logo} alt="logo Binho construções" />
+                </div>
+                <p style={{ padding: '10px', fontSize: '20px' }}>Binho Construções</p>
+              </Link>
             </li>
             <li><Link to='/servicos'>Serviços</Link></li>
             <li><Link to='/sobre'>Sobre</Link></li>
