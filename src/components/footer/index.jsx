@@ -56,9 +56,9 @@ export default function Footer() {
             <section className='menu-footer'>
                 <article>
                     <h1 style={{ marginBottom: '30px' }}>Sobre</h1>
-                    <p style={{ marginBottom: '45px' }}>A Binho Construções atua na grande Florianópolis desde 2007 executando projetos e serviços que vão desde o alicerce ao acabamento.
+                    <p style={{ marginBottom: '45px' }}>Binho Construções atua na grande Florianópolis desde 2007 executando projetos e serviços que vão desde o alicerce ao acabamento.
                         Nossos profissionais estão preparados para executar serviços técnicos e sofisticados de instalações e execução de obras de todos os padrões.
-                        Nosso compromisso como empresa se baseia na entrega rápida e no baixo custo, priorizando as normas técnicas, a conduta profissional e principalemente, a satisfação do cliente.  </p>
+                        Nosso compromisso como empresa se baseia na entrega rápida, no baixo custo, sempre priorizando as normas técnicas, a conduta profissional e principalmente, a satisfação do cliente.  </p>
                 </article>
 
             </section>
