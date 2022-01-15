@@ -105,7 +105,29 @@ span p{
     padding: 5px;
     margin-bottom: 15px;
 }
+@media screen and (max-width:950px){
+    .logo-footer,  .menu-footer, .contato-footer{ 
+       zoom:.9;
+    }
+}
+@media screen and (max-width:850px){
+    .logo-footer,  .menu-footer, .contato-footer{ 
+       zoom:.85;
+    }
+}
+@media screen and (max-width:750px){
+    .logo-footer,  .menu-footer{ 
+       zoom:.7;
+    }
+    .contato-footer{
+        padding: 0px;
+        margin: 40px 0 0 0 ;
+    }
+}
 @media screen and (max-width:600px){
+    .logo-footer,  .menu-footer, .contato-footer{ 
+        zoom:1;
+     }
     .footer{
         flex-direction: column;
         justify-content: center;

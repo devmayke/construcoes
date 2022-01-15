@@ -1,3 +1,16 @@
 .servicos-contato{
     padding-top: 11vh;
 }
+.whatsapp{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom:15px;
+    background-image: url('wp.svg');
+    background-size: cover;
+    right:15px;
+    width: 50px;
+    height:50px;
+    padding: 5px;
+}

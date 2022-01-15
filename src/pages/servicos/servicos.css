@@ -44,6 +44,19 @@ color:rgba(10,41,79,1);
     border-left: 1px solid rgba(10,41,79,.1);
     border-right: 1px solid rgba(10,41,79,.1);
 }
+.whatsapp{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom:15px;
+    background-image: url('wp.svg');
+    background-size: cover;
+    right:15px;
+    width: 50px;
+    height:50px;
+    padding: 5px;
+}
 @media screen and (max-width:600px){
     .servicos-nav{
         display:none;
