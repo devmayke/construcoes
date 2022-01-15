@@ -7,16 +7,16 @@ import instagram from './instagram.png'
 import whatsapp from './whatsapp.png'
 import { useState, useRef } from 'react'
 export default function Nav() {
-  const [menuMobile, setMenuMobile] = useState({ width: '0%', opacity: '0', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+  const [menuMobile, setMenuMobile] = useState({ width: '0%', opacity: '0', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
   const [isChecked, setIsChecked] = useState(false)
   const menuChecked = useRef()
 
   function checkMenu() {
     if (menuChecked.current.checked) {
-      setMenuMobile({ width: '101%', opacity: '1', opacity2: '0', background: 'rgba(0,0,0, 0)', border: 'none', display: 'flex' })
+      setMenuMobile({ width: '101%', opacity: '1', opacity2: '0', background: 'rgba(0,0,0, 0)', border: 'none', display: 'flex',  displayRedes:'flex'  })
       setIsChecked(true)
     } else {
-      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none'})
       setIsChecked(false)
     }
   }
@@ -25,17 +25,17 @@ export default function Nav() {
     if (window.location.pathname !== '/') {
       if (window.location.pathname === '/' + e.target.href.split('/')[e.target.href.split('/').length - 1]) {
         setIsChecked(false)
-        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
       } else if (window.location.pathname === '/') {
         setIsChecked(false)
-        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none'})
       }
     }
   }
   function goToHomePage(e) {
     if (window.location.pathname == '/') {
       setIsChecked(false)
-      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', display: 'none' })
+      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
     }
   }
 
@@ -76,7 +76,7 @@ export default function Nav() {
             <li><Link to='/sobre'>Sobre</Link></li>
             <li><Link to='/contato'>Contato</Link></li>
             <li><Link to='/cliente'>Portal do Cliente</Link></li>
-            <li className='redes-mobile'>
+            <li  style={{display:menuMobile.displayRedes}} className='redes-mobile'>
               <ul>
                 <li><img src={facebook} alt="" /></li>
                 <li><img src={tiktok} alt="" /></li>
