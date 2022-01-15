@@ -1,0 +1,1081 @@
+[33mcommit 795769d3db4ead09c439d35c19c9baf4efd70d77[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/dev[m[33m, [m[1;32mdev[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Jan 14 22:46:11 2022 -0300
+
+    Menu mobile agora faz transição de slide
+
+[33mcommit 694e7fc343ddf719b5809fde37a449812fcdb782[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Jan 14 22:28:40 2022 -0300
+
+    Texto Sobre
+
+[33mcommit c2e57cc8c52f49cecfdfc9ebfbec99eb384e5881[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Jan 14 22:21:54 2022 -0300
+
+    Ícone de whatsapp presente em todas as páginas
+
+[33mcommit 4d099ff1c7d1e9ec8b2bd244a2277d0870f320a2[m[33m ([m[1;31morigin/footer[m[33m, [m[1;32mfooter[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Jan 13 21:29:34 2022 -0300
+
+    Ajustes de responsividade do footer
+
+[33mcommit 37410e462cb0f9079fce1f8e50410cf1dbe9eadc[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Jan 13 20:32:19 2022 -0300
+
+    Consertado direcionamento de links do menu mobile
+
+[33mcommit 895b4141d3866a8256a038437f4d49dc7f421e34[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Jan 12 18:55:54 2022 -0300
+
+    .
+
+[33mcommit 2e8c4f70c242d4bd86b1c48c3a3e81ea5270baba[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Jan 12 18:53:43 2022 -0300
+
+    Colocado navbar nas páginas
+
+[33mcommit 1ad558befd2dad70175b2e2ca84b5f60904e5f71[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Jan 12 17:27:22 2022 -0300
+
+    Menu mobile fecha quando clicado se for o mesmo link da página
+
+[33mcommit a1a5024b7d5c4c798f8b9a22a96480ae802b4651[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Jan 12 16:32:27 2022 -0300
+
+    Ajustes design na página de serviços
+
+[33mcommit cec6bfefb9f4b6b0ee8375023e2a6de134c0d14d[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Jan 12 14:21:35 2022 -0300
+
+    Mudança de cor do background do botão agendar
+
+[33mcommit 85a50c428f68fe0c2f641494b1bfb65d8f099f53[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Jan 11 18:45:03 2022 -0300
+
+    Implementado sistema de redirecionamento de link para serviços
+
+[33mcommit 9c444834b9a9281c3ab2a4ef7ed74f859790529e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Jan 11 15:43:17 2022 -0300
+
+    Separado componente Nav
+
+[33mcommit 6516df92beff3f44947e6e28feac3798e558cae1[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Jan 4 17:03:58 2022 -0300
+
+    Sombreamento do botão next e previous
+
+[33mcommit 22083b3334f94fa7b1372e49a7ba705994b285ba[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Jan 4 17:01:36 2022 -0300
+
+    ajustes de responsividade e ícones no rodapé
+
+[33mcommit 1ecee2a1adb81b150756db6ce6ec9233169e1316[m[33m ([m[1;31morigin/section2[m[33m, [m[1;32msection2[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Jan 3 21:23:30 2022 -0300
+
+    Ajustes de design
+
+[33mcommit 30f3e4f4442f0f1eee3fcbb37ca7a46f23098bbc[m[33m ([m[1;32mcontato[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Jan 3 20:24:39 2022 -0300
+
+    update
+
+[33mcommit 0ea269d5acfc034a8db7c4b88d5d1249170fbc7f[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Jan 3 18:30:25 2022 -0300
+
+    Ajustes de responsividade do footer, e melhora do conteúdo
+
+[33mcommit 376adbce6b2cb8f6a8c8a432eab5118f02bce0e8[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Jan 3 16:58:07 2022 -0300
+
+    Ajuste na altura do contato
+
+[33mcommit 47c16573e92cf4f2d9c11bb028e6f58182faa00a[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 18:50:01 2021 -0300
+
+    Melhorado api do whatsapp para encaminhamento da conversa
+
+[33mcommit 1a5ed44d0d2e7a514c96636e059338d43b2d492a[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 18:23:36 2021 -0300
+
+    .
+
+[33mcommit d2f06c24ce4978e6d7dcff9a142c447aa4c8af9d[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 18:01:51 2021 -0300
+
+    Ajustes de height de contato e serviços
+
+[33mcommit 5e1c4c5a4ae9d1721629eaae594529f3e77f4dc3[m[33m ([m[1;31morigin/section1[m[33m, [m[1;31morigin/rwd[m[33m, [m[1;31morigin/header[m[33m, [m[1;31morigin/contato[m[33m, [m[1;32msection1[m[33m, [m[1;32mrwd[m[33m, [m[1;32mheader[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:38:00 2021 -0300
+
+    Finalmente corrigido bug do teclado quebrando view
+
+[33mcommit d18f402f4dd23d842434824cab6583abf6b6510f[m
+Merge: b58fe94 807e87d
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:33:08 2021 -0300
+
+    Merge branch 'master' of https://github.com/devmayke/construcoes
+
+[33mcommit b58fe94db102e910d600b36ee11925b3b2b9f7f9[m
+Merge: 5506c61 c8e36f5
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:27:04 2021 -0300
+
+    Testes de rwd
+
+[33mcommit 807e87d451ec9f879db7b48bc4c720ff7dbd65b2[m
+Merge: 5506c61 c8e36f5
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:27:04 2021 -0300
+
+    Mais testes de responsividade
+
+[33mcommit 5506c61b58fd97879a6911ca890d6b3ed330668e[m
+Merge: e49c19c 47c66f6
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:11:33 2021 -0300
+
+    Mais testes de responsividade
+
+[33mcommit c8e36f5741f5f6e5e08a86af839fede4c3e27e57[m
+Merge: e49c19c 47c66f6
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 17:11:33 2021 -0300
+
+     teste de rwd
+
+[33mcommit e49c19ca282bfe7d5d4386918e83e50c8b95a1c7[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 16:34:48 2021 -0300
+
+     teste de rwd
+
+[33mcommit 47c66f67cf5b5f1321706e810c710ea6e7389b68[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 16:34:48 2021 -0300
+
+    teste de resize
+
+[33mcommit b87bafc04c7e120313ac00b65056a75c27ac4786[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 16:28:23 2021 -0300
+
+    teste de resize
+
+[33mcommit 19d35319be944ce8540663507511e0136899efd6[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 16:19:22 2021 -0300
+
+    rwd
+
+[33mcommit 6394f72e954ac1fe532c9f6787b4e0a44619b7ff[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 16:12:29 2021 -0300
+
+    rwd
+
+[33mcommit 82e840c7b16c85d3c9db1bc93667331e764b8640[m
+Merge: deafefc f9dbe3a
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 15:50:53 2021 -0300
+
+    rwd
+
+[33mcommit deafefc7f59c003d727731680e382032c1824fff[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 15:45:42 2021 -0300
+
+    rwd
+
+[33mcommit f9dbe3a7b9df8a4fe8f5269d38115b1bd64fc778[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 15:45:42 2021 -0300
+
+    rwd
+
+[33mcommit 0d562e056ea7448bd1dc7a866e380fb098101259[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 30 15:36:14 2021 -0300
+
+    Ajustes de responsividade em serviços
+
+[33mcommit 9929015a64d9da6cc08d2e3a8f17d6fa6c7d74e2[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 29 23:00:56 2021 -0300
+
+    Update
+
+[33mcommit dcbf231ca1afc215c5ddd400f21c8b71bcfed2d5[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 29 21:18:55 2021 -0300
+
+    Ajustes gerais de  responsividade e section serviços
+
+[33mcommit 07ddba240042494ec2b777419f2f1af1e776e56e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 29 19:42:49 2021 -0300
+
+    .
+
+[33mcommit bda66fff4a75025291c1b6cbe6eae9ff0cfd8407[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 29 18:46:02 2021 -0300
+
+    Adiconado section de servicços e ajustes de responsividade
+
+[33mcommit 0906afee7293a14a49ea3cc383b06d48c593048b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 18:40:37 2021 -0300
+
+    Implementado envio de emails
+
+[33mcommit 47804861c488ed4c74a9f70a4b03bbee8fdc85f2[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 15:28:14 2021 -0300
+
+    Ajustes de responsividade
+
+[33mcommit 9c92105e4e82c3abed1fbaf7bfdb778dee3bd347[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 15:20:19 2021 -0300
+
+    Adicionado section de contato
+
+[33mcommit 58526157d0f2a01445707986cdcd903d014fd43d[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 14:17:29 2021 -0300
+
+    Rescolvido problema no botão next
+
+[33mcommit 6c040b41a9a22fdaef7d7ca651d6936fd0958836[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 14:01:27 2021 -0300
+
+    fi
+
+[33mcommit e5e470685ce706d5c27e9c9acde1d3184cde574e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 13:53:29 2021 -0300
+
+    Mais ajustes de menu mobile
+
+[33mcommit 66d7740ce496141aa7663efdb66904e438fdd6b4[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 28 13:47:24 2021 -0300
+
+    Ajustes no menu mobile
+
+[33mcommit f4a5e812615690de4e0db41d467b71f9e1bbda6e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 22:09:44 2021 -0300
+
+    Ajustes do display da logo
+
+[33mcommit ef7480322d4093aa59a8ecd82dbfdf2e768a0bf4[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 22:00:04 2021 -0300
+
+    fix
+
+[33mcommit 43fc4946d91297a8196ac3e8d79fec4b5d26a8ba[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 21:55:36 2021 -0300
+
+    Redes Sociais
+
+[33mcommit 4a94d5870d79a84cae09fcb5876c1275b1696020[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 20:51:20 2021 -0300
+
+    Menu mobile ajustes
+
+[33mcommit 5e1c25c14ad8037ee01ceb769963d41f037697f9[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 20:41:51 2021 -0300
+
+    Menu mobile
+
+[33mcommit 404351483f4e7b7e78364a93814621b8e02984f9[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 19:46:02 2021 -0300
+
+    Menu mobile
+
+[33mcommit e31f1953dd13149d2c41737971377e98c6c8a428[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 17:45:51 2021 -0300
+
+    Mudança de cor do efeito na barra de menu
+
+[33mcommit 5d7c5bf647329487dbf3fc46693488a23ce75655[m
+Merge: a83fac2 7e625b7
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 17:43:49 2021 -0300
+
+    Merge branch 'dev' into header
+
+[33mcommit 7e625b72d8c4fd0fe3e6e5eb81ffb9bf7653182b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 17:15:42 2021 -0300
+
+    Adicionado ícone de whatsapp para contato imediato
+
+[33mcommit 5de9b630ccfc8c16bc02fee7a008c663e5b35d4e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 16:16:23 2021 -0300
+
+    Arrrumado quebra de linha do Binho Contruções de logo
+
+[33mcommit 194f607fb9ef69e737d5ba76931650a2966857d2[m
+Merge: 45ffad2 02e4d6b
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 16:14:34 2021 -0300
+
+    Merge branch 'dev' into footer
+
+[33mcommit 02e4d6bb5279bb6d0cc92e690e55b6a37ce7863c[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 16:08:40 2021 -0300
+
+    Diminuído o tamanho do carousel-article da section2
+
+[33mcommit afbc62d9aa6fe5ab38896c5c2453fd4bf41e269a[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 16:03:25 2021 -0300
+
+    fix
+
+[33mcommit c7f8b3bd87ecfb65b5aeae81e64f18a9922ae52e[m
+Merge: 9060c37 25de308
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 16:00:20 2021 -0300
+
+    Diminuído número de articles da section1
+
+[33mcommit 25de308d7b5dcb96835a553c50815844e4d3a73b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 15:53:19 2021 -0300
+
+    Removido onMouseOver e onMouseOut do section1
+
+[33mcommit 6aa511a4a2b6e24f57564d86b08c9777d94eab1a[m
+Merge: 8240ec0 6422dce
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 15:45:17 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 6422dceb806728231db0187fb9d23eb7a586fe7e[m
+Merge: ea70a46 863dfd2
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 13:05:50 2021 -0300
+
+    .
+
+[33mcommit 8240ec02ee7fa450fb2a2d67bd29af9c8fd1da05[m
+Merge: ea70a46 863dfd2
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 13:05:50 2021 -0300
+
+    Merge branch 'master' of https://github.com/devmayke/construcoes
+
+[33mcommit ea70a46ba34d1b5ab9b79bc192b5db7d8bbb1ca0[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 12:52:59 2021 -0300
+
+    .
+
+[33mcommit 863dfd235d8248b73cb20fbc0f6ee0f192b32d92[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 12:52:59 2021 -0300
+
+    .
+
+[33mcommit b9429ce51bf37fcb701f2511e14f1a01561266ed[m
+Merge: 1f1e384 36e5a32
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 12:41:40 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 36e5a321c3e09fd97fb517142a4382dc37281052[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 12:40:32 2021 -0300
+
+    Responsividade section2
+
+[33mcommit 45ffad2396c729e0b98ab1075e5883325b517207[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 27 12:15:07 2021 -0300
+
+    whatsapp
+
+[33mcommit 1f1e384383202daeaf3fddd3140c9ebf66fc518c[m
+Merge: 8d2cb9e 5b3fcaa
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Sat Dec 25 21:14:05 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 5b3fcaaf1dcd21f8b0d8a2485bf6fca282929b3f[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Sat Dec 25 21:13:15 2021 -0300
+
+    Update section2
+
+[33mcommit 8d2cb9e1efab6e775bb4e52c1358aac31b67eb96[m
+Merge: 1261c14 1112be5
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:19:17 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 1261c1465f0a2844c4509d3fdafb7ed95da2a967[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:19:11 2021 -0300
+
+    .
+
+[33mcommit 1112be5bd5e557e25bf12b5978cc7bf30e64c7ff[m
+Merge: ca09826 d33fa71
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:18:15 2021 -0300
+
+    Ajustes de responsividade
+
+[33mcommit d33fa71130af04960dfd542c96583f8a0d63e535[m
+Merge: c550877 02e7a4b
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:15:35 2021 -0300
+
+    Responsividade do footer
+
+[33mcommit ca09826206c5afe07e8a35528243771a3b6e19e6[m
+Merge: 2c86b4b 02e7a4b
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:05:57 2021 -0300
+
+    Ajustes de design footer
+
+[33mcommit 02e7a4bee9947f4cfc8724fd20f51893dbea9478[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 18:04:09 2021 -0300
+
+    Melhoras no estilo do footer
+
+[33mcommit 2c86b4b773f57710500adb213a9e631efa146ad0[m
+Merge: 9e61d70 d5f58ae
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:53:56 2021 -0300
+
+    .
+
+[33mcommit a83fac2afedd0dba2f5376a4aef9a12b57574615[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:38:43 2021 -0300
+
+    Inserção da logotipo
+
+[33mcommit 85eec1225d19cf1a32c184a0f939f1f75470348b[m
+Merge: 6cf8f31 c550877
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:47:06 2021 -0300
+
+    .
+
+[33mcommit 6cf8f3123d302244306845d4b1121d468fee9ccd[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:46:04 2021 -0300
+
+    .
+
+[33mcommit 4358bd9e4cd25e35a6cb0b8f50c86ce3903fcd4e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:38:43 2021 -0300
+
+    .
+
+[33mcommit d5f58aeb30059a800512d207d8eb6c674d6f4fd6[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:38:43 2021 -0300
+
+    Inserção da logo
+
+[33mcommit 40620dcc73dedd55f3399e94cd5bf679f91aef91[m
+Merge: a8cfefe 3dd3590
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:14:31 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit 3dd3590fda971e287978e2cb9797d6c08a717c17[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:13:01 2021 -0300
+
+    Ajuste botão, rwd
+
+[33mcommit 9e61d701f9b3445611de51c5566b0b53e9a9d261[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:13:01 2021 -0300
+
+    Ajuste botão, rwd
+
+[33mcommit 84100f8e2e78d97753fd635ee653d3ff7e9d6d25[m
+Merge: bebeaed a8cfefe
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:07:56 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit a8cfefea80c9150509c0b03cf5f67951ce5c0f71[m
+Merge: a607cf6 9f0a89b
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:07:43 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit 9f0a89b67a8fac2e3afe368dfe3032d2896d3d37[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:07:29 2021 -0300
+
+    Ajustes de estilo nos botoes previous e next
+
+[33mcommit bebeaedd99c20740da9ddfeb6e31fa2c976971fb[m
+Merge: f2689ed a607cf6
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 15:00:09 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit a607cf6ecb7f98b81ce9b6c90bcbedc93c6d2f4a[m
+Merge: 8492928 c550877
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 14:59:56 2021 -0300
+
+    Merge branch 'rwd' into dev
+
+[33mcommit c5508776c08ac376489ef05022c9b8e5410d2faf[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 14:59:26 2021 -0300
+
+    Implementado Responsividade de menu hamburger
+
+[33mcommit f2689edcead16c0375e5ced77dc1899c56f8397b[m
+Merge: 3520815 8492928
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 13:15:30 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 8492928a9e3a6e61a2124f6afe05243114009a75[m
+Merge: 39243d4 447d404
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 13:15:07 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit 447d404421c7760f0928dd0193d26f9bd984fa26[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 13:14:47 2021 -0300
+
+    Ajustes de responsividade
+
+[33mcommit 3520815541354d37ab1f2e6b3c20410813e00dfb[m
+Merge: 84158e4 39243d4
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:56:05 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 39243d480549860f8e8fe11463623f8951916e52[m
+Merge: 45cb9e4 02b800b
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:55:36 2021 -0300
+
+    Merge branch 'rwd' into dev
+
+[33mcommit 02b800b5e9ca5fa64887489d2deb361aa08530a0[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:54:50 2021 -0300
+
+    Melhoras na responsividade
+
+[33mcommit 6703bbccd76d52fbb8e5c47627c8271e17966bd9[m
+Merge: 42aaa13 50cb284
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:54:19 2021 -0300
+
+    Merge branch 'rwd' of https://github.com/devmayke/construcoes into rwd
+
+[33mcommit 42aaa1340c86fe31429dccf1b13ffb047fe13bf8[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:52:06 2021 -0300
+
+    Melhoras na responsividade
+
+[33mcommit 50cb28421c11cf8473492a5bdf8240098b54d6a4[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 23 12:52:06 2021 -0300
+
+    Melhoras na responsividade
+
+[33mcommit 84158e434f9df3f7c1997c1cca5928e6f562e4be[m
+Merge: 94756a1 45cb9e4
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 22 18:57:56 2021 -0300
+
+    Merge branch 'dev'
+
+[33mcommit 45cb9e41500c6a16f5096ecb94120b78f8f02d57[m
+Merge: 85ed365 f7e0f49
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 22 18:57:39 2021 -0300
+
+    Merge branch 'rwd' into dev
+
+[33mcommit f7e0f49318478c2bd00acf2eddff0a46c1938191[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 22 18:57:08 2021 -0300
+
+    mudanças na responsividade
+
+[33mcommit 699119042cd4f7800522c4422ce208f4fa6de974[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 22 15:39:39 2021 -0300
+
+    responsividade section1
+
+[33mcommit 85ed365645d3a897438a9f755d968f2332ff5085[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 22 15:38:50 2021 -0300
+
+    .
+
+[33mcommit 94756a1b4405a6a9b15a48d10a8cfab6e6d93209[m
+Merge: 453599b cd50c60
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 21 10:19:09 2021 -0300
+
+    .
+
+[33mcommit cd50c60d8b246cb8943d0c5323af6c384085e6c3[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Tue Dec 21 10:17:39 2021 -0300
+
+    Update
+
+[33mcommit 9060c376ceaffd636caf84492645954b91deeb66[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 16:48:47 2021 -0300
+
+    Update
+
+[33mcommit 96ccc93d7626e22a3485090cacc67f2f25384093[m
+Merge: bc6b2ab 77e8504
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 15:24:44 2021 -0300
+
+    Merge branch 'main' into dev
+
+[33mcommit 77e850434bec1be5bb33f68c150c227bac81dd92[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 15:24:19 2021 -0300
+
+    Ajustado tamno do main
+
+[33mcommit 3c68ec344fe46044c08d3c70e2e23509aeb45221[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 15:13:05 2021 -0300
+
+    Mais artigos com efeitos
+
+[33mcommit bc6b2ab69eefffa6d6225a5922733491453455c8[m
+Merge: 3d3c3ec 0362014
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 15:03:03 2021 -0300
+
+    Efeito de shake no botão Agendar
+
+[33mcommit 036201429ff7c5ae6bd2251db1d10f2793e51a7f[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 15:01:39 2021 -0300
+
+    Efeito shake em botão agendar
+
+[33mcommit 3d3c3ec60f11b6288969dfa018a86561f03404c0[m
+Merge: 6862074 541269e
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 13:02:26 2021 -0300
+
+    update section2
+
+[33mcommit 541269e6a5e2f8c52cd22c94d8e1c9bb3eb608ce[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 12:56:42 2021 -0300
+
+    Efeitos de animação com animateccs baseados em scroll
+
+[33mcommit de712cbae934b38f0cba65e12c5270481c874432[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 20 12:54:18 2021 -0300
+
+    Artigos animados com scroll e animate css
+
+[33mcommit 1012c5d599cb43ba998ac978923abca805215b47[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 21:41:50 2021 -0300
+
+    Estado e scroll para identificar breaks de efeitos na página
+
+[33mcommit 8c8187ffcd778ac06628317c49d4d482978da1cf[m[33m ([m[1;31morigin/state[m[33m, [m[1;32mstate[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 21:41:50 2021 -0300
+
+    .
+
+[33mcommit 0cd81db982f21c5091441e14a102cfb297fa9036[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Sat Dec 18 16:38:10 2021 -0300
+
+    .
+
+[33mcommit 686207411f235dc69049ff5874bc6d337128a9c0[m
+Merge: 6f2864c 64dac10
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Sat Dec 18 16:31:02 2021 -0300
+
+    Merge branch 'section2' into dev
+
+[33mcommit 64dac10881b92c18325c712fbc1b1ad6d97f870c[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Sat Dec 18 16:30:41 2021 -0300
+
+    Estrutura section2
+
+[33mcommit 6f2864c802ca7c626f4e2f6a5137fe413cdc4430[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 21:41:50 2021 -0300
+
+    Estado e scroll para identificar breaks de efeitos na página
+
+[33mcommit fca1af94672e67462a4e6568551f01bf9ee86263[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 19:55:34 2021 -0300
+
+    Section2
+
+[33mcommit 184efc595872160cc8a47e77b7facaa6a5a17a53[m[33m ([m[1;31morigin/hotfix[m[33m, [m[1;32mhotfix[m[33m)[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 19:34:35 2021 -0300
+
+    Section1
+
+[33mcommit 28833ea7c7d28ff6c107b2d6896bc991fb905a85[m
+Merge: 1a08845 f324773
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 18:57:40 2021 -0300
+
+    Merge branch 'main' into dev
+
+[33mcommit f324773ef83fb8eacd8740c1d6a45aaa85d5318f[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 18:57:23 2021 -0300
+
+    Consertado evento de click nos botões previous e next do slider
+
+[33mcommit 1105ada3913020f73ca30188cfab167e29ec5645[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 17:32:00 2021 -0300
+
+    Mudança de backgorund do main
+
+[33mcommit fd0b0a524918dfe56a6acf5b9216e410dd56050b[m
+Merge: 94da664 fe61f6d
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:48:04 2021 -0300
+
+    Merge branch 'header'
+
+[33mcommit 1a08845d24df4baf318a86a87df172125b468779[m
+Merge: 4b61388 fe61f6d
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:47:01 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit fe61f6d21f01094391a1a4530aca50c8e0426bf6[m
+Merge: 28e733b 7f1df06
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:46:34 2021 -0300
+
+    Suavização de bordas do slider
+
+[33mcommit 28e733b10ef19fc1fa5fd85c722bcfaeb878b2bd[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:39:48 2021 -0300
+
+    Suavização das bordas da imagem do slider
+
+[33mcommit 4b613882ce169d9c488a623cad993e8ef569ea54[m
+Merge: 69488f7 7f1df06
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:40:33 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit 7f1df06c625c3a53b2d5aa2004db6524132412f2[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Fri Dec 17 15:39:48 2021 -0300
+
+    Suavização da borda das imagens do slider
+
+[33mcommit 69488f738274f2f4fd82abd0fc417ed7f736d2bd[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Thu Dec 16 15:07:16 2021 -0300
+
+    Brincando com o filter
+
+[33mcommit b1894bc2c3369b6139cd71a544b3aa13ee704e3b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 18:57:27 2021 -0300
+
+    footer
+
+[33mcommit 94da66461728ee29e4a769d06d351cbc3c21656b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 17:36:41 2021 -0300
+
+    Mais ajustes de css
+
+[33mcommit cd9fee26058b6b0a87997c933a5f6ac2ddc19675[m
+Merge: 6cbe596 8e5706f
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 16:13:13 2021 -0300
+
+    Merge branch 'main' into dev
+
+[33mcommit 8e5706fb2ccbdb7ea4ac3406362a863b210a9835[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 16:04:47 2021 -0300
+
+    paralax
+
+[33mcommit 6cbe59622877f919f52aed96cfefc5b13d6fff87[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 16:04:47 2021 -0300
+
+    paralax
+
+[33mcommit 469de62cdb1741d61a4827176dc3ce67a6556748[m
+Merge: d34e5a4 ac2470d
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 15:37:00 2021 -0300
+
+    paralax
+
+[33mcommit ac2470d941a1544ab1f5fec6b366acbea66f70e7[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 15:36:34 2021 -0300
+
+    paralax
+
+[33mcommit d34e5a4fe57ec1adb0a03f641d0112ed0a52b668[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 15:19:26 2021 -0300
+
+    fix
+
+[33mcommit d953b4452e3319916919114409a009f0cf4fb80d[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Wed Dec 15 15:14:27 2021 -0300
+
+    Mudança de cores do box-shadow
+
+[33mcommit f47b96e95a8ee32d85f722a414b2ef373e31afd3[m
+Merge: 6e2a1b6 101ad54
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 22:20:05 2021 -0300
+
+    Merge branch 'dev' of https://github.com/devmayke/construcoes into dev
+
+[33mcommit 6e2a1b6980febad0475f1d506e7846e33294933c[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 22:08:26 2021 -0300
+
+    .
+
+[33mcommit 101ad540bfe084ce9a395960b15c7059cd3931cf[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 22:08:26 2021 -0300
+
+    .
+
+[33mcommit f7e7662246c66c76bba2a2b66701de8b022a082e[m
+Merge: b9e69a4 5036204
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 22:03:30 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit 5036204d177472bc8b2c9fefee9f9163d7a39cea[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 22:03:05 2021 -0300
+
+    Criado botão agende sua visita e efeitos
+
+[33mcommit a70000947f43b523786a3a4d8a54085306ecf26e[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 21:32:54 2021 -0300
+
+    Animação no menu
+
+[33mcommit 453599ba4c335821f25cd35438d7c5243a608bf1[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 21:32:54 2021 -0300
+
+    Animação no menu
+
+[33mcommit b9e69a464baf37606a635b3a46c024d636d15ae8[m
+Merge: 2b5cd26 656650c
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 20:05:07 2021 -0300
+
+    fix
+
+[33mcommit 656650cee9cc08b9a07f118ed58c906607c303a9[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 18:59:03 2021 -0300
+
+    fix
+
+[33mcommit 5c9bc8ad08ada96cfc7b94838c7c1087cc011856[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 18:50:09 2021 -0300
+
+    Animação do texto do slide
+
+[33mcommit 2b5cd26ef37a1da2efbddd4fa0562b5ebb42fef1[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 14:29:33 2021 -0300
+
+    conserto de lint
+
+[33mcommit 262ed91afa157f2a7851b0c9e5c844f995ae74c2[m
+Merge: 1ece894 65ef403
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 14:12:36 2021 -0300
+
+    .
+
+[33mcommit 1ece8940d57bd94ba12d988409112a558752000b[m
+Author: devmayke <74163797+devmayke@users.noreply.github.com>
+Date:   Mon Dec 13 14:10:52 2021 -0300
+
+    .
+
+[33mcommit 65ef4035fdf2a5d8d0ec0d9e677c3cbf3166e726[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 20:46:06 2021 -0300
+
+    Estrutura de ícones
+
+[33mcommit d68fef9cbfa009a362a76f812fa4fa51dc50aa46[m
+Merge: 619ed16 a6774c2
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 19:26:32 2021 -0300
+
+    Merge branch 'header' into dev
+
+[33mcommit a6774c2772604b2d523687de9955e6f3ca3bc8c8[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 19:26:09 2021 -0300
+
+    Aumento do tamnho do paging dots do carousel
+
+[33mcommit 619ed1650341936bde4b9a1d06d8cb81bb60ed66[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 18:03:33 2021 -0300
+
+    Estrutura inicial
+
+[33mcommit 6806caeba090e1f74bc9be76a9a2f12d723920df[m[33m ([m[1;31morigin/routes[m[33m, [m[1;32mroutes[m[33m)[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 17:53:33 2021 -0300
+
+    Craido mais páginas de rotas e links
+
+[33mcommit 6c15ff4f695d0d9d76c8f79fb9b90a4973003117[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 17:11:35 2021 -0300
+
+    Animação de zomm nas transições de imagem do carousel
+
+[33mcommit 67e7306a7f88c94e68fba92cbd6fc305400f3295[m
+Merge: f5326f8 d2a510f
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 17:08:12 2021 -0300
+
+    Animação de zomm nas transições de imagem do carousel
+
+[33mcommit f5326f8ed828abdad39fd2d3268418e070942839[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 17:02:20 2021 -0300
+
+    Animação de zomm nas transições de imagem do carousel
+
+[33mcommit 20bef38b555f1c4ec81067e6373763d1c16a07d7[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 15:37:53 2021 -0300
+
+    Personalização dos botões previous e next
+
+[33mcommit d2a510f9d37515212f0a84ffd26bbaa109d3ac5b[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 15:37:53 2021 -0300
+
+    Personalização dos botões previous e next
+
+[33mcommit a73c4b4748d4c6a60b42dfb1164cc6a4e15cb2a6[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 13:59:28 2021 -0300
+
+    Botões do carousel
+
+[33mcommit 07c94a9c126e478de43079a19d7de1b0cd6557f3[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 12:23:16 2021 -0300
+
+    Estrutura do slider incorporada
+
+[33mcommit 79ee98bb7f4ba09f0f8d4468822ff0d2751e0955[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 11:24:53 2021 -0300
+
+    Estrutura do projeto
+
+[33mcommit 64be0ec3bf2ffd60798299f76dc7fc3b74cadfad[m
+Author: Mayke Ken <devmayke@gmail.com>
+Date:   Sat Dec 11 10:03:31 2021 -0300
+
+    Fisrt commit
