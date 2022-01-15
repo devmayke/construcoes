@@ -7,7 +7,7 @@ import instagram from './instagram.png'
 import whatsapp from './whatsapp.png'
 import { useState, useRef } from 'react'
 export default function Nav() {
-  const [menuMobile, setMenuMobile] = useState({ width: '0%', opacity: '0', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
+  const [menuMobile, setMenuMobile] = useState({ width: '0%', opacity: '0', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none', pointerEvents:'none' })
   const [isChecked, setIsChecked] = useState(false)
   const menuChecked = useRef()
 
@@ -16,7 +16,7 @@ export default function Nav() {
       setMenuMobile({ width: '101%', opacity: '1', opacity2: '0', background: 'rgba(0,0,0, 0)', border: 'none', display: 'flex',  displayRedes:'flex'  })
       setIsChecked(true)
     } else {
-      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none'})
+      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none', pointerEvents:'none'})
       setIsChecked(false)
     }
   }
@@ -25,17 +25,17 @@ export default function Nav() {
     if (window.location.pathname !== '/') {
       if (window.location.pathname === '/' + e.target.href.split('/')[e.target.href.split('/').length - 1]) {
         setIsChecked(false)
-        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
+        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none',pointerEvents:'none' })
       } else if (window.location.pathname === '/') {
         setIsChecked(false)
-        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none'})
+        setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none',pointerEvents:'none'})
       }
     }
   }
   function goToHomePage(e) {
     if (window.location.pathname == '/') {
       setIsChecked(false)
-      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none' })
+      setMenuMobile({ width: '0%', opacity: '0', opacity2: '1', background: 'rgba(0,0,0, .7)', border: '1px solid white', displayRedes:'none', pointerEvents:'none' })
     }
   }
 
@@ -60,10 +60,10 @@ export default function Nav() {
           </div>
         </label>
       </nav>
-      <div style={{ width: menuMobile.width, opacity: menuMobile.opacity, display: menuMobile.display }} className='menu-mobile'>
+      <div style={{ width: menuMobile.width, opacity: menuMobile.opacity, display: menuMobile.display,pointerEvents:menuMobile.pointerEvents }} className='menu-mobile'>
 
-        <nav >
-          <ul onClick={(e) => { closeMenu(e) }} className='menu-vertical'>
+        <nav style={{zIndex:menuMobile.pointerEvents}} >
+          <ul onClick={(e) => { closeMenu(e) }} className='menu-vertical' >
             <li onClick={e => { goToHomePage(e) }} style={{ marginBottom: '20px' }} >
               <Link to="/"  >
                 <div className='logo-mobile' style={{ margin: 'auto', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
