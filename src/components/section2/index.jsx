@@ -2,7 +2,8 @@ import './section2.css'
 import "animate.css/animate.min.css"
 import 'animate.css';
 import { useState } from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion"
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -34,22 +35,42 @@ export default function Section2() {
     return (
         <section className='section2'>
             <div className="group1">
-                {/* <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  > */}
-                    <article className='article' >
-                        <h1 class=",
-                        " >Título</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                    </article>
-                {/* </ScrollAnimation> */}
-                {/* <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn"> */}
-                    <article className='article' >
-                        <h1 class="">Título</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                    </article>
-                {/* </ScrollAnimation> */}
+                <div className='article'>
+                
+            <ScrollContainer  >
+                    <ScrollPage page={0}>
+                        <Animator animation={batch(Fade(), Sticky()) }>
+                        <article className='article'>
+                                <h1 class=",
+                            " >Título</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                            </article>
+                        </Animator>
+                    </ScrollPage>
+                    <ScrollPage page={1}>
+                        <Animator animation={batch(Fade(), Sticky())}>
 
-            </div>
-            <div className='group2'>
+                            <article className='article'>
+                                <h1 class=",
+                            " >Título</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                            </article>
+                        </Animator>
+                    </ScrollPage>
+                </ScrollContainer>
+                </div>
+
+
+
+
+                <article  >
+                    <h1 class=",
+                            " >Título</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                </article>
+
+
+
                 <Carousel className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
@@ -80,7 +101,7 @@ export default function Section2() {
                         })
                     }
                 </Carousel>
-              
+
             </div>
         </section>
     )
