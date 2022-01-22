@@ -1,20 +1,17 @@
-import './contato.css'
 import alvenaria from './assets/alvenaria.png'
 import carpintaria from './assets/serra-manual.png'
 import eletrica from './assets/carga-eletrica.png'
 import hidraulica from './assets/torneira.png'
 import pintura from './assets/rolo-de-pintura.png'
-import camera from './assets/camera-de-seguranca.png'
+import camera from './assets/camera-de-seguranca.png' 
 
-export default () => {
+
+export default function Servicos(){
     function linkToServico(link) {
         window.location.assign(`/servicos#${link}`)
-
     }
-
-    return (
-        <section className='section3'>
-            <span>
+    return(
+         <span>
                 <h1>Serviços</h1>
                 <article className='servicos'>
                     <div className='servicos-item'><div onClick={() => { linkToServico('alvenaria') }} className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>
@@ -25,23 +22,6 @@ export default () => {
                     <div className='servicos-item'><div onClick={() => { linkToServico('instalacoes') }} className='circle'><img src={camera} alt="" /></div><h1 className='servicos-nome'>Instalações</h1></div>
                 </article>
             </span>
-            <span>
-                <h1 >Deixe sua mensagem</h1>
-                <form className="contato" action="https://formsubmit.co/binhoconstrucoes2007@gmail.com" method='POST'>
-                    <label htmlFor="nome">Nome</label>
-                    <input id='nome' name="name" type="text" placeholder='Digite seu nome' required />
-                    <label htmlFor="email">Email</label>
-                    <input type="email" name="email" placeholder="Digite seu email" />
-                    <label htmlFor="phone">Celular</label>
-                    <input type="number" id="phone" name="phone" placeholder='Digite seu celular com DDD' required />
-                    <input type="hidden" name="_captcha" value="false"></input>
-                    <input type="hidden" name="_autoresponse" value="Olá, recebi seu email, assim que possível entrarei em contato. Obrigado!" />
-                    <input type="hidden" name="_next" value='https://binhoconstrucoes.com.br/enviado'></input>
-                    <label htmlFor="mensagem">Mensagem</label>
-                    <textarea id="mensagem" name="message" id="" cols="30" rows="10" placeholder='Digite sua mensagem' required></textarea>
-                    <button type='submit'>Enviar</button>
-                </form>
-            </span>
-        </section>
     )
+
 }

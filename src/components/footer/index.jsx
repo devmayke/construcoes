@@ -26,7 +26,7 @@ export default function Footer() {
                 window.location.assign('https://www.tiktok.com/@binho_construcoes')
                 break
             case 'instagram':
-                window.location.assign('https://www.tiktok.com/@binho_construcoes')
+                window.location.assign('https://www.instagram.com/binhoconstrucoes2')
                 break
             case 'facebook':
                 window.location.assign('https://www.tiktok.com/@binho_construcoes')
@@ -36,14 +36,7 @@ export default function Footer() {
                 break
             default:
                 window.location.assign(wpmode)
-
-
-
-
-
-
         }
-
     }
     return (
         <footer className='footer'>
@@ -73,6 +66,7 @@ export default function Footer() {
                 </span>
                 <span className='contatos'>
                     <span><img src={telefone} alt="" /><p> (48) 9997-3102</p></span>
+                    <span><img src={telefone} alt="" /><p> (48) 9102-9563</p></span>
                     <span><img src={gmail} alt="" /> <p> binhoconstrucoes2007@gmail.com</p></span>
                     <span><img src={localizacao} alt="" /> <p> Rua Valdemiro Eli 800, Potecas-São José-SC</p></span>
                 </span>

@@ -1,5 +1,72 @@
 .servicos-contato{
-    padding-top: 11vh;
+    padding: 11vh 25% 0px 25%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.form-contato{
+    /* padding: 20px 35px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+    width: 100%;
+
+}
+.form-contato span{
+    /* padding: 20px 35px; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+}
+.form-contato h1{
+ 
+    text-align: center;
+}
+.servicos-contato h1{
+    text-align:center;
+    margin-bottom: 15px;
+}
+.wrapper{
+    overflow: hidden;
+    border:1px solid rgba(10,41,79,1);
+    border-radius:10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.localizacao{
+    position: relative;
+    width: 100%;
+    border:1px solid rgba(10,41,79,1);
+    border-radius:10px;
+    margin: auto;
+    z-index: 10;
+
+}
+.localizacao ul{
+    position: absolute;
+    bottom:-65px;
+    right: 20px;
+    left:auto;
+    z-index: 11;
+}
+.localizacao .menu-redes img{
+    width: 75px;
+    height: 75px;
+    padding:5px;
+    background-size: cover;
+    margin-top: 0px;
+    cursor:pointer;
 }
 .whatsapp{
     position:fixed;
@@ -13,4 +80,39 @@
     width: 50px;
     height:50px;
     padding: 5px;
+}
+@media screen and (max-width:950px){
+    .servicos-contato{
+        padding: 11vh 15% 0px 15%;
+    
+    }
+
+}
+@media screen and (max-width:800px){
+    .servicos-contato{
+        padding: 11vh 10% 0px 10%;
+    
+    }
+
+}
+@media screen and (max-width:750px){
+    .servicos-contato{
+        padding: 11vh 5% 0px 5%;
+    
+    }
+
+}
+@media screen and (max-width:600px){
+    .servicos-contato{
+        padding: 11vh 1% 0px 1%;
+    
+    }
+    .form-contato .contato{
+        padding: 0px 35px;
+        margin: 0px;
+        width:100%;
+
+    
+    }
+
 }

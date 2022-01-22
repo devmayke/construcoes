@@ -1,7 +1,7 @@
 .footer{
     position: relative;
     max-width:100vw;
-    min-height:70vh;
+    height:fit-content;
     background:#0A294F;
     display:flex;
     color:white;
