@@ -15,7 +15,7 @@ import gmail from './gmail.png'
 export default function Footer() {
     const [wpmode, setWpmode] = useState('https://web.whatsapp.com/send?phone=5548999973102?&text=Olá%20Binho%20Construções')
     useEffect(() => {
-        console.log(navigator.userAgent.match(/iPad/i))
+   
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
         }
