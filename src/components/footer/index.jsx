@@ -20,6 +20,31 @@ export default function Footer() {
             setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
         }
     }, [])
+    function linkTo(link){
+        switch(link){
+            case 'tiktok':
+                window.location.assign('https://www.tiktok.com/@binho_construcoes')
+                break
+            case 'instagram':
+                window.location.assign('https://www.tiktok.com/@binho_construcoes')
+                break
+            case 'facebook':
+                window.location.assign('https://www.tiktok.com/@binho_construcoes')
+                break
+            case 'whatsapp':
+                window.location.assign(wpmode)
+                break
+            default:
+                window.location.assign(wpmode)
+
+
+
+
+
+
+        }
+
+    }
     return (
         <footer className='footer'>
             <section className='logo-footer'>
@@ -40,10 +65,10 @@ export default function Footer() {
                 <span>
                     <h1>Contato</h1>
                     <ul className='menu-redes'>
-                        <li><img src={facebook} alt="" /></li>
-                        <li><img src={tiktok} alt="" /></li>
-                        <li><img src={instagram} alt="" /></li>
-                        <li><img src={whatsapp} alt="" /></li>
+                        <li><img onClick={e=>{linkTo('facebook')}} src={facebook} alt="" /></li>
+                        <li><img onClick={e=>{linkTo('tiktok')}} src={tiktok} alt="" /></li>
+                        <li><img onClick={e=>{linkTo('instagram')}} src={instagram} alt="" /></li>
+                        <li><img onClick={e=>{linkTo('whatsapp')}} src={whatsapp} alt="" /></li>
                     </ul>
                 </span>
                 <span className='contatos'>
