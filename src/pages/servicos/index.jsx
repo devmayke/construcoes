@@ -17,7 +17,7 @@ const Servicos = (props) => {
   }, [])
 
   return (
-    <div className='servicos-container'>
+    <div className='page-servicos-container'>
       <Nav />
       <nav className='servicos-nav'>
         <ul>
