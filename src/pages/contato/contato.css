@@ -16,8 +16,18 @@
     width: 100%;
 
 }
+.form-contato .contato{
+    max-height:65vh;
+    min-height: 65vh;
+    padding-bottom: 30px;
+}
+.form-contato button{
+  
+
+}
 .form-contato span{
-    /* padding: 20px 35px; */
+
+ 
     width:100%;
     display: flex;
     flex-direction: column;
@@ -26,12 +36,14 @@
 
 }
 .form-contato h1{
+    margin: 10px;
  
     text-align: center;
 }
 .servicos-contato h1{
     text-align:center;
     margin-bottom: 15px;
+    margin: 10px;
 }
 .wrapper{
     overflow: hidden;
@@ -50,7 +62,7 @@
     border:1px solid rgba(10,41,79,1);
     border-radius:10px;
     margin: auto;
-    z-index: 10;
+    z-index: 3;
 
 }
 .localizacao ul{
@@ -58,7 +70,7 @@
     bottom:-65px;
     right: 20px;
     left:auto;
-    z-index: 11;
+    z-index: 4;
 }
 .localizacao .menu-redes img{
     width: 75px;
@@ -114,5 +126,27 @@
 
     
     }
+    .localizacao{
+        margin-bottom: 150px;
+    }
+    .localizacao ul{
+        /* position: static; */
+        position: fixed;
+        left:0;
+        right: 0;
+        bottom:20px;
+        display: flex;      
+        width: 100%;
+        margin-top: 30px;
+        
+    }
+    .localizacao ul li{
+        width: calc(100% / 4);
+        border:1px solid blue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
 
 }

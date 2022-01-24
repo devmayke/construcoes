@@ -11,17 +11,17 @@ export default function Servicos(){
         window.location.assign(`/servicos#${link}`)
     }
     return(
-         <span>
+         <div className='servicos'>
                 <h1>Serviços</h1>
-                <article className='servicos'>
+                <div className='servicos-container' >
                     <div className='servicos-item'><div onClick={() => { linkToServico('alvenaria') }} className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>
                     <div className='servicos-item'><div onClick={() => { linkToServico('carpintaria') }} className='circle'><img src={carpintaria} alt="" /></div><h1 className='servicos-nome'>Carpintaria</h1></div>
                     <div className='servicos-item'><div onClick={() => { linkToServico('eletrica') }} className='circle'><img src={eletrica} alt="" /></div><h1 className='servicos-nome'>Elétrica</h1></div>
                     <div className='servicos-item'><div onClick={() => { linkToServico('hidraulica') }} className='circle'><img src={hidraulica} alt="" /></div><h1 className='servicos-nome'>Hidráulica</h1></div>
                     <div className='servicos-item'><div onClick={() => { linkToServico('pintura') }} className='circle'><img src={pintura} alt="" /></div><h1 className='servicos-nome'>Pintura</h1></div>
                     <div className='servicos-item'><div onClick={() => { linkToServico('instalacoes') }} className='circle'><img src={camera} alt="" /></div><h1 className='servicos-nome'>Instalações</h1></div>
-                </article>
-            </span>
+                </div>
+            </div>
     )
 
 }
