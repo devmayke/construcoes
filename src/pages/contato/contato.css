@@ -1,5 +1,5 @@
 .servicos-contato{
-    padding: 11vh 25% 0px 25%;
+    padding: 12vh 25% 0px 25%;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -14,6 +14,20 @@
     justify-content: center;
     /* width: 100%; */
     width: 100%;
+    padding: 0px;
+  
+
+}
+.form-contato .contato{
+    padding:0px;
+    margin: 0px;
+   
+
+}
+.form-contato .contato form{
+    padding:30x;
+    margin: 0px;
+   
 
 }
 .form-contato .contato{
@@ -36,14 +50,15 @@
 
 }
 .form-contato h1{
-    margin: 10px;
+    margin: 15px;
  
     text-align: center;
 }
 .servicos-contato h1{
+    
     text-align:center;
     margin-bottom: 15px;
-    margin: 10px;
+    margin: 15px;
 }
 .wrapper{
     overflow: hidden;
@@ -116,18 +131,22 @@
 }
 @media screen and (max-width:600px){
     .servicos-contato{
-        padding: 11vh 1% 0px 1%;
+        padding: 12vh 10px;
+    
+    }
+    .servicos-contato h1{
+        margin-top: 20px;
     
     }
     .form-contato .contato{
-        padding: 0px 35px;
+        padding: 0px 0px;
         margin: 0px;
         width:100%;
 
     
     }
     .localizacao{
-        margin-bottom: 150px;
+        margin-bottom: 70px;
     }
     .localizacao ul{
         /* position: static; */
@@ -141,8 +160,7 @@
         
     }
     .localizacao ul li{
-        width: calc(100% / 4);
-        border:1px solid blue;
+        width: calc(100% / 4);    
         display: flex;
         justify-content: center;
         align-items: center;
