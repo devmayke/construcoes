@@ -17,13 +17,14 @@
     border:1px solid rgba(255, 255, 255, 0.898);
     border-radius: 20px;
     background: rgba(0,0,0,.6);
+    transition: all 2s;
   }
   .apresentacao p{
     color:white;
     margin: 15px;
   }
   .apresentacao-img{
-    background-image: url('https://blog.aevo.com.br/wp-content/uploads/2020/11/inovacacao-construcao-civil-1024x536.jpg');
+    background-image: url('inovacacao-construcao-civil-1024x536.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
