@@ -9,6 +9,7 @@ import camera from './assets/camera-de-seguranca.png'
 export default function Servicos(){
     function linkToServico(link) {
         window.location.assign(`/servicos#${link}`)
+        console.log()
     }
     return(
          <div className='servicos'>
