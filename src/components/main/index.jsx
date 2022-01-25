@@ -7,17 +7,17 @@ import Section3 from '../section3'
 
 
 const Main = () => {
-  const [resize, setResize ] = useState('fit-content')
-  useEffect(()=>{
-    window.addEventListener('keyboardDidShow', function (e) {
-      setResize('600vh')
-      console.log(e)
-  });
-  },[window.onresize])
+  // const [resize, setResize ] = useState('fit-content')
+  // useEffect(()=>{
+  //   window.addEventListener('keyboardDidShow', function (e) {
+  //     setResize('600vh')
+  //     console.log(e)
+  // });
+  // },[window.onresize])
   return (
   
 
-    <main style={{height:resize}}  className='main'>
+    <main  className='main'>
       <Section1/> 
       <Section2/>
       <Section3/>          
