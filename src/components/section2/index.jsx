@@ -1,8 +1,11 @@
 import './section2.css'
-import "animate.css/animate.min.css"
-import 'animate.css';
+// import "animate.css/animate.min.css"
+// import 'animate.css';
 import { useEffect, useState } from 'react'
-import ScrollAnimation from 'react-animate-on-scroll'
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+/*
+import ScrollAnimation from 'react-animate-on-scroll'*/
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -12,6 +15,7 @@ export default function Section2() {
 
     const [isMobile, setIsMobile] = useState(true)
     useEffect(() => {
+        Aos.init({duration:2000})
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setIsMobile(true)
         } else {
@@ -44,29 +48,29 @@ export default function Section2() {
         if (!isMobile) {
             return (
                 <>
-                    <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  >
-                        <article >
-                            <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
+                    {/* <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  > */}
+                        <article className='article' data-aos="slide-up" data-aos-duration="4000">
+                            <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    </ScrollAnimation>
-                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn">
-                        <article >
-                            <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
+                    {/* </ScrollAnimation> */}
+                    {/* <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn"> */}
+                        <article className='article' data-aos="slide-up" data-aos-duration="4000">
+                            <h1 class="">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    </ScrollAnimation>
+                    {/* </ScrollAnimation> */}
                 </>
             )
         } else {
             return(
             <>
-                <article className='article' >
-                    <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
+                <article data-aos="slide-up" data-aos-duration="4000" className='article' >
+                    <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
-                <article className='article'>
-                    <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
+                <article data-aos="slide-up" data-aos-duration="4000" className='article'>
+                    <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
             </>
