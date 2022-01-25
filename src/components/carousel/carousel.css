@@ -127,6 +127,9 @@
     background-size: cover; 
     background-repeat: no-repeat;
   }
+  .animate{
+    all:unset;
+  }
   .carousel{
     width: 100%;
     position: relative;
