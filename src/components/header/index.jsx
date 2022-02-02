@@ -5,8 +5,17 @@ import image1 from './assets/GettyImages-628578920-1.jpg'
 import image2 from './assets/imprevisto-em-obras-2.jpg'
 import image3 from './assets/obras.jpg'
 import image4 from './assets/04_Planejamento_controle_obras-min.png'
+import { useEffect } from 'react'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 
 const Header = (props) => {
+  useEffect(()=>{
+    Aos.init({duration:500})
+    Aos.refresh();
+},[])
+
 
 
   const images = [image1, image2, image3, image4]

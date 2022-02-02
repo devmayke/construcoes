@@ -15,7 +15,7 @@ export default function Section2() {
 
     const [isMobile, setIsMobile] = useState(true)
     useEffect(() => {
-        Aos.init({duration:2000})
+        Aos.init({duration:500})
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setIsMobile(true)
         } else {
@@ -49,13 +49,13 @@ export default function Section2() {
             return (
                 <>
                     {/* <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  > */}
-                        <article className='article' data-aos="slide-up" data-aos-duration="4000">
+                        <article className='article' data-aos="slide-up" >
                             <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
                     {/* </ScrollAnimation> */}
                     {/* <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn"> */}
-                        <article className='article' data-aos="slide-up" data-aos-duration="4000">
+                        <article className='article' data-aos="slide-up" >
                             <h1 class="">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
@@ -65,11 +65,11 @@ export default function Section2() {
         } else {
             return(
             <>
-                <article data-aos="slide-up" data-aos-duration="4000" className='article' >
+                <article data-aos="slide-up" className='article' >
                     <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
-                <article data-aos="slide-up" data-aos-duration="4000" className='article'>
+                <article data-aos="slide-up" className='article'>
                     <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
@@ -84,8 +84,8 @@ export default function Section2() {
                 {render()}
 
             </div>
-            <div className='group2'>
-                <Carousel className='carousel-article'
+            <div data-aos= "zoom-in"  className='group2'>
+                <Carousel data-aos= "slide-down"  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={true}
