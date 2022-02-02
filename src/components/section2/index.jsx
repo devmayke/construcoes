@@ -9,7 +9,7 @@ import ScrollAnimation from 'react-animate-on-scroll'*/
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import Carousel from 'nuka-carousel'
+// import Carousel from 'nuka-carousel'
 export default function Section2() {
 
 
@@ -85,7 +85,7 @@ export default function Section2() {
 
             </div>
             <div data-aos= "zoom-in"  className='group2'>
-                <Carousel data-aos= "slide-down"  className='carousel-article'
+                {/* <Carousel data-aos= "slide-down"  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={true}
@@ -114,7 +114,7 @@ export default function Section2() {
                             )
                         })
                     }
-                </Carousel>
+                </Carousel> */}
 
             </div>
         </section>
