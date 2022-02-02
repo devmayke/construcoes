@@ -4,12 +4,9 @@ import './section2.css'
 import { useEffect, useState } from 'react'
 import Aos from 'aos';
 import 'aos/dist/aos.css'
-/*
-import ScrollAnimation from 'react-animate-on-scroll'*/
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-// import Carousel from 'nuka-carousel'
+import Carousel from 'nuka-carousel'
 export default function Section2() {
 
 
@@ -48,18 +45,15 @@ export default function Section2() {
         if (!isMobile) {
             return (
                 <>
-                    {/* <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  > */}
                         <article className='article' data-aos="slide-up" >
                             <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    {/* </ScrollAnimation> */}
-                    {/* <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn"> */}
                         <article className='article' data-aos="slide-up" >
                             <h1 class="">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    {/* </ScrollAnimation> */}
+                  
                 </>
             )
         } else {
@@ -85,7 +79,7 @@ export default function Section2() {
 
             </div>
             <div data-aos= "zoom-in"  className='group2'>
-                {/* <Carousel data-aos= "slide-down"  className='carousel-article'
+                <Carousel data-aos= "slide-down"  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={true}
@@ -114,7 +108,7 @@ export default function Section2() {
                             )
                         })
                     }
-                </Carousel> */}
+                </Carousel>
 
             </div>
         </section>
