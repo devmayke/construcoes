@@ -23,7 +23,7 @@ img{
     margin-top: 20px;
     cursor:pointer;
 }
-.footer a{
+/* .footer a{
     position:fixed;
     display:flex;
     justify-content: center;
@@ -35,7 +35,7 @@ img{
     width: 50px;
     height:50px;
     padding: 5px;
-}
+} */
 .logo-footer{
     width:30%;
     display:flex;

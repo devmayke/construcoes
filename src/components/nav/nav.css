@@ -34,19 +34,33 @@
     display:flex;
     list-style: none ;
     font-size: 20px;
+    max-width: 100vw;
   
   }
   .menu-mobile{
     display:none;
-    position:fixed;  
+    position:absolute;  
     flex-direction: column;
     align-items: center;
     right: -1px;
     top: 0;
+    bottom:0;
     height: 100vh; 
+    width: 100vh;
+    max-width: 100vw;
     background:rgba(10,41,79,1) ;
     transition: width .3s, opacity .5s;
     z-index:4;
+    overflow-x: hidden;
+  }
+  .menu-mobile::after{
+    overflow-x: hidden;
+    content:'';
+    height:200vh;
+    width:101vw;
+    background:rgba(10,41,79,1);
+    position: fixed;
+    pointer-events: none;
   }
   header nav::after{
     position: fixed;
@@ -58,15 +72,15 @@
     0px 0px 4px 2px rgba(11, 46, 89, 0.6);
     background: rgba(13, 52, 100, 0.6);
     border-radius:2px;
-    transform:translateX(-5vw);
+    transform:translateX(0vw);
     animation:slide linear 7s infinite;
   }
   @keyframes slide{
     0%{
-      transform:translateX(-5vw);
+      transform:translateX(0vw);
     }  
     90%{
-      transform:translateX(-5vw);   
+      transform:translateX(90vw);   
     }
     100%{
       transform:translateX(100vw);   
@@ -149,6 +163,9 @@
     }
     .menu-mobile{
       display:flex;
+      align-items: center;
+      width: 100vw;
+      height:100vh;
          
   
     }
@@ -164,7 +181,8 @@
      
     }
     .menu-vertical{
-      width: 100%;
+      width: 100vw;
+      
       margin-top: 78vh;  
       display:flex;
       flex-direction: column;
