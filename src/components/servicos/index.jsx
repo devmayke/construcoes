@@ -22,7 +22,11 @@ export default function Servicos(){
     }
     
     return(
+<<<<<<< HEAD
          <div data-aos='fade-right' className='servicos'>
+=======
+         <div >
+>>>>>>> animacao
                 <h1>Serviços</h1>
                 <div className='servicos-container' >
                     <div data-aos= 'flip-up' data-aos-delay='350' className='servicos-item'><div onClick={() => { linkToServico('alvenaria') }} className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>

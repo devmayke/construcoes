@@ -1,9 +1,17 @@
 import './section2.css'
+<<<<<<< HEAD
 // import "animate.css/animate.min.css"
 // import 'animate.css';
 import { useEffect, useState } from 'react'
 // import Aos from 'aos';
 // import 'aos/dist/aos.css'
+=======
+import "animate.css/animate.min.css"
+import 'animate.css';
+import ScrollAnimation from 'react-animate-on-scroll'
+import { useEffect, useState } from 'react'
+
+>>>>>>> animacao
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
@@ -45,12 +53,24 @@ export default function Section2() {
         if (!isMobile) {
             return (
                 <>
+<<<<<<< HEAD
                         <article className='article' data-aos="slide-up" >
                             <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
                         <article className='article' data-aos="slide-up" >
                             <h1 class="">Título</h1>
+=======
+                    <ScrollAnimation className='article scroll-animation' animateIn="animate__slideInLeft"  >
+                        <article >
+                            <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                        </article>
+                    </ScrollAnimation>
+                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__slideInLeft">
+                        <article >
+                            <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
+>>>>>>> animacao
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
                   
@@ -78,8 +98,14 @@ export default function Section2() {
                 {render()}
 
             </div>
+<<<<<<< HEAD
             <div data-aos= "zoom-in"  className='group2'>
                 <Carousel data-aos= "slide-down"  className='carousel-article'
+=======
+            <div className='group2'>
+            <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
+                <Carousel 
+>>>>>>> animacao
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={true}
@@ -109,6 +135,7 @@ export default function Section2() {
                         })
                     }
                 </Carousel>
+                </ScrollAnimation >
 
             </div>
         </section>

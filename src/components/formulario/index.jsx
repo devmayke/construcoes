@@ -8,7 +8,11 @@ export default function Formulario () {
     //     Aos.init({duration:500})
     // },[])
     return (
+<<<<<<< HEAD
         <div data-aos='fade-left' fade-aos-duration='1000' className="contato">
+=======
+        <div style={{width:"100%"}} >
+>>>>>>> animacao
             <h1 >Deixe sua mensagem</h1>
             <form  action="https://formsubmit.co/binhoconstrucoes2007@gmail.com" method='POST'>
                 <label htmlFor="nome">Nome</label>
