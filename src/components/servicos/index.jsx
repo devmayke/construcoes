@@ -12,7 +12,7 @@ export default function Servicos(){
         console.log()
     }
     return(
-         <div className='servicos'>
+         <div >
                 <h1>Serviços</h1>
                 <div className='servicos-container' >
                     <div className='servicos-item'><div onClick={() => { linkToServico('alvenaria') }} className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>

@@ -1,8 +1,8 @@
 import './section2.css'
 import "animate.css/animate.min.css"
 import 'animate.css';
-import { useEffect, useState } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll'
+import { useEffect, useState } from 'react'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
@@ -44,13 +44,13 @@ export default function Section2() {
         if (!isMobile) {
             return (
                 <>
-                    <ScrollAnimation className='article scroll-animation' animateIn="animate__zoomIn"  >
+                    <ScrollAnimation className='article scroll-animation' animateIn="animate__slideInLeft"  >
                         <article >
                             <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
                     </ScrollAnimation>
-                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__zoomIn">
+                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__slideInLeft">
                         <article >
                             <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
@@ -81,7 +81,8 @@ export default function Section2() {
 
             </div>
             <div className='group2'>
-                <Carousel className='carousel-article'
+            <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
+                <Carousel 
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={true}
@@ -111,6 +112,7 @@ export default function Section2() {
                         })
                     }
                 </Carousel>
+                </ScrollAnimation >
 
             </div>
         </section>
