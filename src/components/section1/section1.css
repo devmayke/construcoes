@@ -7,18 +7,10 @@
     flex-wrap: wrap;
     transition: all 2s;
   }
-<<<<<<< HEAD
- 
-  .apresentacao article
-  {
-    padding: 30px;    
-    margin:10px;
-=======
   .apresentacao .article
   {
     padding: 15px;
     margin: 10px;
->>>>>>> animacao
     width: calc(50% - (10px * 2));
     display:flex;
     flex-direction: column;

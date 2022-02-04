@@ -4,16 +4,13 @@ import eletrica from './assets/carga-eletrica.png'
 import hidraulica from './assets/torneira.png'
 import pintura from './assets/rolo-de-pintura.png'
 import camera from './assets/camera-de-seguranca.png' 
-// import Aos from 'aos'
-// import 'aos/dist/aos.css'
+
 import { useEffect } from 'react'
 
 
 
 export default function Servicos(){
-    // useEffect(()=>{
-    //     Aos.init({duration:500})
-    // },[])
+   
     
     
     function linkToServico(link) {
@@ -22,11 +19,7 @@ export default function Servicos(){
     }
     
     return(
-<<<<<<< HEAD
-         <div data-aos='fade-right' className='servicos'>
-=======
          <div >
->>>>>>> animacao
                 <h1>Serviços</h1>
                 <div className='servicos-container' >
                     <div data-aos= 'flip-up' data-aos-delay='350' className='servicos-item'><div onClick={() => { linkToServico('alvenaria') }} className='circle'><img src={alvenaria} alt="" /></div><h1 className='servicos-nome'>Alvenaria</h1></div>
