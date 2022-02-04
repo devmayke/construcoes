@@ -3,23 +3,39 @@ import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
-import 'animate.css'
+import "animate.css/animate.min.css"
+import 'animate.css';
+import { useEffect } from 'react'
 
 
 const CarouselComponent = (props) => {
   const [currentSlideState, setCurrentSlideState] = useState(0)
+  const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
+  useEffect(()=>{
+    console.log("width " + window.screen.width)
+    setCurrentScreenWidth(window.screen.width)
+  },[])
+  function sizeWidth(){
+    if(currentScreenWidth > 600){
+      return '3500'
+    }
+    return '0'
+    
+
+  }
+  
  
 
   return (
     <>
       <Carousel className='carousel'
         wrapAround={true}
-        autoplayInterval={3500}
+        autoplayInterval={sizeWidth()}
         autoplay={true}
         dragging={true}
         pauseOnHover={true}
         defaultControlsConfig={{
-          pagingDotsContainerClassName: "container-dots"
+        pagingDotsContainerClassName: "container-dots"
         }}
 
         renderCenterLeftControls={({ previousSlide }) => (

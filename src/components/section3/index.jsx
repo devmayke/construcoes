@@ -8,8 +8,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 
 export default function Section3 () {
-
-   
+  
  
     return (
         <section className='section3'>

@@ -53,7 +53,7 @@
     z-index:4;
     overflow-x: hidden;
   }
-  .menu-mobile::after{
+  /* .menu-mobile::after{
     overflow-x: hidden;
     content:'';
     height:200vh;
@@ -85,7 +85,7 @@
     100%{
       transform:translateX(100vw);   
     }
-  }
+  } */
   .menu li{
     width: fit-content;
     white-space: nowrap;

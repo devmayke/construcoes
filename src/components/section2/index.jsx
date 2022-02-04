@@ -8,11 +8,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
 export default function Section2() {
+    const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
+ 
+    function sizeWidth(){
+      if(currentScreenWidth > 600){
+        return '3500'
+      }
+      return '0'
+      
+  
+    }
 
 
     const [isMobile, setIsMobile] = useState(true)
     useEffect(() => {
-        // Aos.init({duration:500})
+        setCurrentScreenWidth(window.screen.width)
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setIsMobile(true)
         } else {
@@ -90,7 +100,7 @@ export default function Section2() {
             <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
                 <Carousel 
                     wrapAround={true}
-                    autoplayInterval={3500}
+                    autoplayInterval={sizeWidth()}
                     autoplay={true}
                     dragging={true}
                     pauseOnHover={true}
