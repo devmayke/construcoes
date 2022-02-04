@@ -2,16 +2,12 @@ import './section1.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPaintRoller, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons'
 import Icon from '../../styled/icons/Icon'
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+
 import { useEffect } from 'react';
 
 
 export default function Section1() {
-    useEffect(()=>{
-        Aos.init({duration:500})
-        Aos.refresh();
-    },[])
+
    
  
     return (

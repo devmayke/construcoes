@@ -2,8 +2,8 @@ import './section2.css'
 // import "animate.css/animate.min.css"
 // import 'animate.css';
 import { useEffect, useState } from 'react'
-import Aos from 'aos';
-import 'aos/dist/aos.css'
+// import Aos from 'aos';
+// import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
@@ -12,7 +12,7 @@ export default function Section2() {
 
     const [isMobile, setIsMobile] = useState(true)
     useEffect(() => {
-        Aos.init({duration:500})
+        // Aos.init({duration:500})
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setIsMobile(true)
         } else {

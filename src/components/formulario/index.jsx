@@ -1,12 +1,12 @@
 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 export default function Formulario () {
-    useEffect(()=>{
-        Aos.init({duration:500})
-    },[])
+    // useEffect(()=>{
+    //     Aos.init({duration:500})
+    // },[])
     return (
         <div data-aos='fade-left' fade-aos-duration='1000' className="contato">
             <h1 >Deixe sua mensagem</h1>

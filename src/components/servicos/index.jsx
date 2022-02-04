@@ -4,16 +4,16 @@ import eletrica from './assets/carga-eletrica.png'
 import hidraulica from './assets/torneira.png'
 import pintura from './assets/rolo-de-pintura.png'
 import camera from './assets/camera-de-seguranca.png' 
-import Aos from 'aos'
-import 'aos/dist/aos.css'
+// import Aos from 'aos'
+// import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
 
 
 export default function Servicos(){
-    useEffect(()=>{
-        Aos.init({duration:500})
-    },[])
+    // useEffect(()=>{
+    //     Aos.init({duration:500})
+    // },[])
     
     
     function linkToServico(link) {
