@@ -12,14 +12,14 @@ const CarouselComponent = (props) => {
   const [currentSlideState, setCurrentSlideState] = useState(0)
   const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
   useEffect(()=>{
-    console.log("width " + window.screen.width)
+    
     setCurrentScreenWidth(window.screen.width)
   },[])
   function sizeWidth(){
     if(currentScreenWidth > 600){
-      return '3500'
+      return true
     }
-    return '0'
+    return false
     
 
   }
@@ -30,8 +30,8 @@ const CarouselComponent = (props) => {
     <>
       <Carousel className='carousel'
         wrapAround={true}
-        autoplayInterval={sizeWidth()}
-        autoplay={true}
+        autoplayInterval={3500}
+        autoplay={sizeWidth()}
         dragging={true}
         pauseOnHover={true}
         defaultControlsConfig={{

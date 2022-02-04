@@ -12,9 +12,9 @@ export default function Section2() {
  
     function sizeWidth(){
       if(currentScreenWidth > 600){
-        return '3500'
+        return true
       }
-      return '0'
+      return false
       
   
     }
@@ -100,8 +100,8 @@ export default function Section2() {
             <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
                 <Carousel 
                     wrapAround={true}
-                    autoplayInterval={sizeWidth()}
-                    autoplay={true}
+                    autoplayInterval={3500}
+                    autoplay={sizeWidth()}
                     dragging={true}
                     pauseOnHover={true}
                     defaultControlsConfig={{
