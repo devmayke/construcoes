@@ -12,7 +12,7 @@ export default function Section3 () {
  
     return (
         <section className='section3'>
-             <ScrollAnimation className='servicos' animateIn="animate__fadeInRight"  >
+            <ScrollAnimation className='servicos' animateIn="animate__fadeInRight"  >
             <Servicos/>
             </ScrollAnimation>
             <ScrollAnimation className='contato' animateIn="animate__fadeInLeft"  >

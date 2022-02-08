@@ -31,20 +31,18 @@
   justify-content: center;
   align-items: center;
   height:45px;
-  /* color: rgba(200,200,200,.9); */
   color:rgba(255, 255, 255, 1);
-
   padding:5px;
-  /* box-shadow:inset 0px 0px 8px 4px rgba(100,100,100,.5), 0px 0px 8px 4px rgba(255,255,255,.3); */
   z-index: 1500000;
   cursor:pointer;
+  transition: all .05s;
 }
 .previous:hover, .next:hover{
   background: rgba(0,0,0,.4);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 50%;
   filter:drop-shadow(-0px 0px 5px  rgb(170, 170, 170)) drop-shadow(0px 0px 5px rgb(170, 170, 170));
-  transform:scale(1.05);
+  transform:scale(1.2);
 }
 .previous{ 
   margin-left: 45px; 

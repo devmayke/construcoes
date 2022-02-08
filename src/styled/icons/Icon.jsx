@@ -22,6 +22,7 @@ export default styled.div`
   &:hover{
     filter:drop-shadow(-0px 0px 5px  rgb(170, 170, 170)) drop-shadow(0px 0px 5px rgb(170, 170, 170));
 
+
   }
 
   `

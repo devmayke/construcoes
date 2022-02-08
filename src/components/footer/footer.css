@@ -22,6 +22,10 @@ img{
     background-size: cover;
     margin-top: 20px;
     cursor:pointer;
+    transition:all 0.2s;
+}
+.menu-redes img:hover{
+    transform:scale(1.2);
 }
 .footer a{
     position:fixed;
