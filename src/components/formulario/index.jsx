@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 export default function Formulario () {
 
     return (
-        <div style={{width:"100%"}} >
+        <div  className="contato" style={{width:"100%"}} >
             <h1 >Deixe sua mensagem</h1>
             <form  action="https://formsubmit.co/binhoconstrucoes2007@gmail.com" method='POST'>
                 <label htmlFor="nome">Nome</label>

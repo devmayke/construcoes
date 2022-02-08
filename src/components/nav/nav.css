@@ -53,7 +53,7 @@
     z-index:4;
     overflow-x: hidden;
   }
-  /* .menu-mobile::after{
+ .menu-mobile::after{
     overflow-x: hidden;
     content:'';
     height:200vh;
@@ -62,6 +62,7 @@
     position: fixed;
     pointer-events: none;
   }
+   /* 
   header nav::after{
     position: fixed;
     top:9.8vh;
@@ -193,7 +194,7 @@
       color:white;
     }
     .menu-vertical li{
-      margin:4px;
+      margin:6px;
       font-size: 22px;
       list-style: none;
     }
