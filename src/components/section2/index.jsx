@@ -9,7 +9,8 @@ import image3 from './assets/obras.jpg'
 import image4 from './assets/04_Planejamento_controle_obras-min.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-import Carousel from 'nuka-carousel'
+// import Carousel from 'nuka-carousel'
+import Carousel from '../carousel'
 export default function Section2() {
     const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
  
@@ -101,7 +102,7 @@ export default function Section2() {
             </div>
             <div className='group2'>
             <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
-                <Carousel 
+                {/* <Carousel 
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={sizeWidth()}
@@ -130,7 +131,8 @@ export default function Section2() {
                             )
                         })
                     }
-                </Carousel>
+                </Carousel> */}
+                 <Carousel className='carousel' footer={true} images={images} textSlide={textSlide} />
                 </ScrollAnimation >
 
             </div>
