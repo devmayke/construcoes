@@ -60,6 +60,35 @@ const Contato = () => {
             </ul>
 
         </div>
+        <div className='atendimento'>
+        <h1>Horário de atendimento</h1>
+        <ul>
+          <li>
+            <p>Segunda-feira</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Terça-feira</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Quarta-feira</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Quinta-feira</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Sexta-feira</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Sábado</p><p>08:00–18:00</p>
+          </li>
+          <li>
+            <p>Domingo</p><p>Fechado</p>
+          </li>
+        </ul>
+        
+
+        </div>
+        
 
       </div>
       {/* <a style={{ zIndex: '6' }} className='whatsapp animate__animated animate__pulse animate__infinite' href={wpmode} target='_blank'></a> */}
