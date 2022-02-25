@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
+import ScrollAnimation from 'react-animate-on-scroll'
 import image1 from './assets/GettyImages-628578920-1.jpg'
 import image2 from './assets/imprevisto-em-obras-2.jpg'
 import image3 from './assets/obras.jpg'
@@ -12,14 +13,12 @@ import image4 from './assets/04_Planejamento_controle_obras-min.png'
 
 export default function Section2() {
     const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
- 
-    function sizeWidth(){
-      if(currentScreenWidth > 600){
-        return true
-      }
-      return false
-      
-  
+
+    function sizeWidth() {
+        if (currentScreenWidth > 600) {
+            return true
+        }
+        return false
     }
 
 
@@ -54,45 +53,46 @@ export default function Section2() {
             'Lavação predial, paredes, telhados, rufos, calhas e fachadas de vidro'
         ]
     }
-    function render() {
+    function renderGroup1() {
         if (!isMobile) {
             return (
                 <>
-                        <article className='article' data-aos="slide-up" >
+                    <ScrollAnimation className='article' animateIn='animate__animated animate__zoomIn'>
+                        <article >
                             <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                        <article className='article' data-aos="slide-up" >
-                            <h1 class="">Título</h1>
+                    </ScrollAnimation>
+
+                    <ScrollAnimation className='article' animateIn='animate__animated animate__zoomIn'>
+                        <article  >
+                            <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                      
+                    </ScrollAnimation>
+
                 </>
             )
-        } else {
-            return(
+        }
+
+        return (
             <>
                 <article className='article' >
                     <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
-                <article  className='article'>
+                <article className='article'>
                     <h1 class="fade-up" >Título</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                 </article>
             </>
-            )
-        }
+        )
     }
 
-    return (
-        <section className='section2'>
-            <div className="group1">
-                {render()}
-
-            </div>
-            <div data-aos= "zoom-in"  className='group2'>
-                <Carousel data-aos= "slide-down"  className='carousel-article'
+    function renderGroup2() {
+        if (isMobile) {
+            return (
+                <Carousel className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={sizeWidth()}
@@ -122,8 +122,55 @@ export default function Section2() {
                         })
                     }
                 </Carousel>
-             
+            )
 
+        }
+        return (
+            <ScrollAnimation className='carousel-article' animateIn='animate__animated animate__zoomIn'>
+                <Carousel data-aos="slide-down" className='carousel-article'
+                    wrapAround={true}
+                    autoplayInterval={3500}
+                    autoplay={sizeWidth()}
+                    dragging={true}
+                    pauseOnHover={true}
+                    defaultControlsConfig={{
+                        pagingDotsContainerClassName: "container-dots"
+                    }}
+
+                    renderCenterLeftControls={({ previousSlide }) => (
+                        <FontAwesomeIcon className='previous' onClick={previousSlide} icon={faChevronLeft} size='5x' />
+                    )}
+                    renderCenterRightControls={({ nextSlide }) => (
+                        <FontAwesomeIcon className="next" onClick={nextSlide} icon={faChevronRight} size='5x' />
+                    )}
+                    renderTopCenterControls={({ currentSlide }) => {
+                        setCurrentSlideState(currentSlide)
+                        return (
+                            <div></div>
+                        )
+                    }} >
+                    {
+                        images.map((el, i) => {
+                            return (
+                                <img alt='' src={el} className={currentSlideState === i ? 'animate' : ''} key={i} />
+                            )
+                        })
+                    }
+                </Carousel>
+            </ScrollAnimation>
+        )
+    }
+
+
+
+
+    return (
+        <section className='section2'>
+            <div className="group1">
+                {renderGroup1()}
+            </div>
+            <div className='group2'>
+                {renderGroup2()}
             </div>
         </section>
     )
