@@ -2,16 +2,30 @@ import './section2.css'
 import "animate.css/animate.min.css"
 import 'animate.css';
 import { useEffect, useState } from 'react'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
+import image1 from './assets/GettyImages-628578920-1.jpg'
+import image2 from './assets/imprevisto-em-obras-2.jpg'
+import image3 from './assets/obras.jpg'
+import image4 from './assets/04_Planejamento_controle_obras-min.png'
+
 export default function Section2() {
+    const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
+ 
+    function sizeWidth(){
+      if(currentScreenWidth > 600){
+        return true
+      }
+      return false
+      
+  
+    }
 
 
     const [isMobile, setIsMobile] = useState(true)
     useEffect(() => {
-        // Aos.init({duration:500})
+        setCurrentScreenWidth(window.screen.width)
         if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
             setIsMobile(true)
         } else {
@@ -21,10 +35,10 @@ export default function Section2() {
     const [currentSlideState, setCurrentSlideState] = useState(0)
 
     const images = [
-        "https://artia.com/wp-content/uploads/2015/07/obras.jpg",
-        "https://constructapp.io/shared/uploads/2017/05/imprevisto-em-obras-2.jpg",
-        "https://ibecensino.org.br/wp-content/uploads/2019/07/04_Planejamento_controle_obras.png",
-        "https://blog.belgobekaert.com.br/wp-content/uploads/2019/09/GettyImages-628578920-1.jpg"
+        image1,
+        image2,
+        image3,
+        image4
     ]
     const textSlide = {
         title: [
@@ -52,7 +66,7 @@ export default function Section2() {
                             <h1 class="">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                  
+                      
                 </>
             )
         } else {
@@ -81,7 +95,7 @@ export default function Section2() {
                 <Carousel data-aos= "slide-down"  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
-                    autoplay={true}
+                    autoplay={sizeWidth()}
                     dragging={true}
                     pauseOnHover={true}
                     defaultControlsConfig={{
@@ -108,7 +122,7 @@ export default function Section2() {
                         })
                     }
                 </Carousel>
-                </ScrollAnimation >
+             
 
             </div>
         </section>

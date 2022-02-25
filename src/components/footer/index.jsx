@@ -46,15 +46,7 @@ export default function Footer() {
                 </span><h1>Binho Construções</h1>
             </section>
             <section className='contato-footer'>
-                {/* <details style={{ color: 'white' }}>
-                    <summary style={{ padding: "20px 0", cursor: 'pointer' }}>Páginas</summary>
-                    <ul className='menu-footer-'>
-                        <li><Link to='construcoes'>Construções</Link></li>
-                        <li><Link to='sobre'>Sobre</Link></li>
-                        <li><Link to='contato'>Contato</Link></li>
-                        <li><Link to='cliente'>Portal do Cliente</Link></li>
-                    </ul>
-                </details> */}
+                
                 <span>
                     <h1>Contato</h1>
                     <ul className='menu-redes'>
@@ -81,7 +73,7 @@ export default function Footer() {
                 </article>
 
             </section>
-            <a style={{ zIndex: '6' }} className='animate__animated animate__pulse animate__infinite' href={wpmode} target='_blank'></a>
+            <a style={{ zIndex: '100000' }} className='animate__animated animate__pulse animate__infinite' href={wpmode} target='_blank'></a>
 
 
 

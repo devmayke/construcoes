@@ -2,17 +2,15 @@
     padding: 12vh 25% 0px 25%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 
 }
 
+
 .form-contato{
-    /* padding: 20px 35px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 100%; */
     width: 100%;
     padding: 0px;
   
@@ -31,8 +29,8 @@
 
 }
 .form-contato .contato{
-    max-height:65vh;
-    min-height: 65vh;
+    /* max-height:65vh;
+    min-height: 65vh; */
     padding-bottom: 30px;
 }
 .form-contato button{
@@ -62,7 +60,7 @@
 }
 .wrapper{
     overflow: hidden;
-    border:1px solid rgba(10,41,79,1);
+    border:2px solid rgba(10,41,79,.7);
     border-radius:10px;
     width: 100%;
     display: flex;
@@ -108,6 +106,31 @@
     height:50px;
     padding: 5px;
 }
+.atendimento ul{
+    width: 100%;
+    margin: auto;
+    border: 2px solid rgba(10,41,79,1);
+    border-radius:10px;
+    padding: 10px;
+}
+.atendimento ul li{
+    display:flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.atendimento ul li p{
+   /* border:1px solid red; */
+   /* padding:2px 25px; */
+}
+.atendimento ul li p:nth-child(1){
+    flex:1.7;
+   
+}
+.atendimento ul li p:nth-child(2){
+  
+    flex:1;
+}
 @media screen and (max-width:950px){
     .servicos-contato{
         padding: 11vh 15% 0px 15%;
@@ -131,8 +154,12 @@
 }
 @media screen and (max-width:600px){
     .servicos-contato{
-        padding: 12vh 10px;
+        padding: 12vh 10px 20px 10px;
     
+    }
+    .form-contato{
+        max-height:fit-content;
+        min-height: fit-content;
     }
     .servicos-contato h1{
         margin-top: 20px;
@@ -146,13 +173,13 @@
     
     }
     .localizacao{
-        margin-bottom: 70px;
+        margin-bottom: 0px;
+        border: none;
     }
     .localizacao ul{
         /* position: static; */
-        position: fixed;
-        left:0;
-        right: 0;
+        position: static;
+    
         bottom:20px;
         display: flex;      
         width: 100%;

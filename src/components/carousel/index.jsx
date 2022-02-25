@@ -3,11 +3,31 @@ import './carousel.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import Carousel from 'nuka-carousel'
-import 'animate.css'
+import "animate.css/animate.min.css"
+import 'animate.css';
+import { useEffect } from 'react'
 
 
 const CarouselComponent = (props) => {
   const [currentSlideState, setCurrentSlideState] = useState(0)
+  const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
+  useEffect(()=>{
+    
+    setCurrentScreenWidth(window.screen.width)
+  },[])
+  function sizeWidth(){
+    if(currentScreenWidth > 600){
+      return true
+    }
+    return false
+    
+
+ 
+  }
+  function goToPage(){
+    window.location.assign("/contato")
+  }
+  
  
 
   return (
@@ -15,11 +35,11 @@ const CarouselComponent = (props) => {
       <Carousel className='carousel'
         wrapAround={true}
         autoplayInterval={3500}
-        autoplay={true}
+        autoplay={sizeWidth()}
         dragging={true}
         pauseOnHover={true}
         defaultControlsConfig={{
-          pagingDotsContainerClassName: "container-dots"
+        pagingDotsContainerClassName: "container-dots"
         }}
 
         renderCenterLeftControls={({ previousSlide }) => (
@@ -44,7 +64,7 @@ const CarouselComponent = (props) => {
       <div className={`text-slide text-animate` } key={currentSlideState}>
         <h1>{props.textSlide.title[currentSlideState]}</h1>
         <p>{props.textSlide.description[currentSlideState]}</p>
-        <button className='agendar animate__animated animate__headShake animate__delay-1s'>Agende uma visita</button>
+        <button onClick={()=>{goToPage()}} className='agendar animate__animated animate__headShake animate__delay-1s'>Agende uma visita</button>
       </div>      
     </>
   )

@@ -1,7 +1,7 @@
 {
   "name": "construcoes",
   "version": "0.1.0",
-  "homepage": "https://binhoconstrucoes.com.br/",
+  "homepage": "https://binhoconstrucoes.com.br",
   "private": true,
   "build_staging": "PUBLIC_URL=https://binhoconstrucoes.com.br react-scripts build",
   "dependencies": {

@@ -22,8 +22,12 @@ img{
     background-size: cover;
     margin-top: 20px;
     cursor:pointer;
+    transition:all 0.2s;
 }
-/* .footer a{
+.menu-redes img:hover{
+    transform:scale(1.2);
+}
+.footer a{
     position:fixed;
     display:flex;
     justify-content: center;
@@ -35,7 +39,7 @@ img{
     width: 50px;
     height:50px;
     padding: 5px;
-} */
+}
 .logo-footer{
     width:30%;
     display:flex;
