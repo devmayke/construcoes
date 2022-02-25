@@ -9,6 +9,7 @@ import image1 from './assets/GettyImages-628578920-1.jpg'
 import image2 from './assets/imprevisto-em-obras-2.jpg'
 import image3 from './assets/obras.jpg'
 import image4 from './assets/04_Planejamento_controle_obras-min.png'
+
 export default function Section2() {
     const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
  
@@ -68,21 +69,20 @@ export default function Section2() {
                       
                 </>
             )
-        } 
+        } else {
             return(
             <>
-                        <article className='article'>
-                            <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                        </article >
-                    
-                        <article className='article'>
-                            <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                        </article>
+                <article className='article' >
+                    <h1 class="fade-up" >Título</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                </article>
+                <article  className='article'>
+                    <h1 class="fade-up" >Título</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
+                </article>
             </>
             )
-       
+        }
     }
 
     return (
