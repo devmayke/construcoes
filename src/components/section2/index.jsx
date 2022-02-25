@@ -1,16 +1,14 @@
 import './section2.css'
 import "animate.css/animate.min.css"
 import 'animate.css';
-import ScrollAnimation from 'react-animate-on-scroll'
 import { useEffect, useState } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
+import Carousel from 'nuka-carousel'
 import image1 from './assets/GettyImages-628578920-1.jpg'
 import image2 from './assets/imprevisto-em-obras-2.jpg'
 import image3 from './assets/obras.jpg'
 import image4 from './assets/04_Planejamento_controle_obras-min.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons'
-// import Carousel from 'nuka-carousel'
-import Carousel from '../carousel'
 export default function Section2() {
     const [currentScreenWidth, setCurrentScreenWidth] = useState(700)
  
@@ -59,39 +57,32 @@ export default function Section2() {
         if (!isMobile) {
             return (
                 <>
-                    <ScrollAnimation className='article scroll-animation' animateIn="animate__fadeInLeft"  >
-                        <article >
-                            <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
+                        <article className='article' data-aos="slide-up" >
+                            <h1 class="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    </ScrollAnimation>
-                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__fadeInLeft">
-                        <article >
-                            <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
+                        <article className='article' data-aos="slide-up" >
+                            <h1 class="">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                        </ScrollAnimation>
-                  
+                      
                 </>
             )
-        } else {
+        } 
             return(
             <>
-                   <ScrollAnimation className='article scroll-animation' animateIn="animate__fadeInLeft"  >
-                        <article >
+                        <article className='article'>
                             <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                        </article>
-                    </ScrollAnimation>
-                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__fadeInRight">
-                        <article >
+                        </article >
+                    
+                        <article className='article'>
                             <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                        </ScrollAnimation>
             </>
             )
-        }
+       
     }
 
     return (
@@ -100,9 +91,8 @@ export default function Section2() {
                 {render()}
 
             </div>
-            <div className='group2'>
-            <ScrollAnimation className='carousel-article' animateIn="animate__zoomIn">
-                {/* <Carousel 
+            <div data-aos= "zoom-in"  className='group2'>
+                <Carousel data-aos= "slide-down"  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={sizeWidth()}
@@ -131,9 +121,8 @@ export default function Section2() {
                             )
                         })
                     }
-                </Carousel> */}
-                 <Carousel className='carousel' footer={true} images={images} textSlide={textSlide} />
-                </ScrollAnimation >
+                </Carousel>
+             
 
             </div>
         </section>
