@@ -49,6 +49,7 @@ const CarouselComponent = (props) => {
     setInterval(()=>{btnNext.current.click()}, 3500)
   }
   
+  
  
 
   return (
