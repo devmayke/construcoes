@@ -91,8 +91,10 @@ export default function Section2() {
                 {render()}
 
             </div>
+
             <div data-aos= "zoom-in"  className='group2'>
                 <Carousel data-aos= "slide-down"  className='carousel-article'
+
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={sizeWidth()}
@@ -121,8 +123,10 @@ export default function Section2() {
                             )
                         })
                     }
+
                 </Carousel>
              
+
 
             </div>
         </section>
