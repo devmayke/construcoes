@@ -28,6 +28,7 @@ const CarouselComponent = (props) => {
     window.location.assign("/contato")
   }
   
+  
  
 
   return (
