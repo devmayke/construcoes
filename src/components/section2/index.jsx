@@ -73,24 +73,21 @@ export default function Section2() {
                   
                 </>
             )
-        } else {
+        } 
             return(
             <>
-                   <ScrollAnimation className='article scroll-animation' animateIn="animate__fadeInLeft"  >
-                        <article >
+                        <article className='article'>
                             <h1 class="animate__animated animate__bounce animate__delay-2s" >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
-                        </article>
-                    </ScrollAnimation>
-                    <ScrollAnimation className='scroll-animation article ' animateIn="animate__fadeInRight">
-                        <article >
+                        </article >
+                    
+                        <article className='article'>
                             <h1 class="animate__animated animate__bounce animate__delay-2s">Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                        </ScrollAnimation>
             </>
             )
-        }
+       
     }
 
     return (
