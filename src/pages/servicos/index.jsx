@@ -15,8 +15,7 @@ const Servicos = (props) => {
 
 
       if(window.location.hash){
-        document.addEventListener('DOMContentLoaded',()=>{
-          console.log("página totalmente carregada")
+        window.onLoad = ()=>{
           let sections = document.querySelectorAll("section")
           sections.forEach((el, index)=>{
             if(window.location.hash === "#" + el.id)        
@@ -26,7 +25,7 @@ const Servicos = (props) => {
               inline:   "nearest" 
             })
           })
-        })
+        }
 
 
        
