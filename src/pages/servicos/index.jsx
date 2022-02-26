@@ -10,7 +10,22 @@ import {useState, useEffect} from 'react'
 const Servicos = (props) => {
   const [wpmode, setWpmode] = useState('https://web.whatsapp.com/send?phone=5548999973102?&text=Olá%20Binho%20Construções')
   useEffect(() => {
-      console.log(navigator.userAgent.match(/iPad/i))
+   
+      let sections = document.querySelectorAll("section")
+      if(window.location.hash){
+        sections.forEach((el, index)=>{
+          if(window.location.hash === "#" + el.id)
+          console.log(el.id)
+          el.scrollIntoView({
+            behavior: "smooth",
+            block:    "nearest" ,
+            inline:   "nearest" 
+          })
+        })
+      }
+
+    
+
       if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
           setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
       }
