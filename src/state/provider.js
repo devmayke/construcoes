@@ -4,10 +4,10 @@ import context from "./context";
 
 
 export default function Provider({children}){
-    const [scroll, setScroll] = useState();
+    const [isEnviado, setIsEnviado] = useState(false);
 
     return(
-        <context.Provider value={{scroll, setScroll}} >
+        <context.Provider value={{isEnviado, setIsEnviado}} >
             {children}
         </context.Provider>
     )

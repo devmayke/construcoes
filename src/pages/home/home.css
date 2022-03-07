@@ -1,0 +1,39 @@
+.home{
+  position: relative;
+}.wrapper-modal{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0,0,0,.5);
+  z-index: 100000;
+}
+.modal-email{
+  position: relative;
+  width: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+.modal-email button{
+  position:absolute;
+  width: 25px;
+  height:25px;
+  top:5px;
+  right:5px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: red;
+  border-radius: 50%;
+  color:white;
+  cursor:pointer;
+}

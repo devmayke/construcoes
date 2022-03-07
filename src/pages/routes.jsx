@@ -5,17 +5,24 @@ import Contato from "./contato"
 import Cliente from "./cliente";
 import Sobre from './sobre/index';
 import Enviado from "./enviado";
+import { useEffect } from "react/cjs/react.production.min";
 
 
 function Router() {
+    // useEffect(()=>{
+       
+
+    // },[])
     return (
         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/servicos" element={<Servicos />} />
-            <Route path="/sobre" element={<Sobre />} />
-            <Route path="/contato" element={<Contato />} />
-            <Route path="/cliente" element={<Cliente />} />
-            <Route path="/enviado" element={<Enviado/>} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/servicos" element={<Servicos />} />
+            <Route exact path="/sobre" element={<Sobre />} />
+            <Route exact path="/contato" element={<Contato />} />
+            <Route exact path="/cliente" element={<Cliente />} />
+            <Route exact path="/enviado" element={<Enviado/>} />
+            <Route path="/:email" element={<Home />} />
+
         </Routes>
     )
 }
