@@ -19,8 +19,7 @@ const Servicos = (props) => {
                 behavior: "smooth",
                 block:    "nearest" ,
                 inline:   "nearest" 
-              })
-              el.scrollTop = 0;
+              })           
             }    
           })
         }       

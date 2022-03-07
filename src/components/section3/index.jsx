@@ -22,8 +22,8 @@ export default function Section3 () {
     function renderServicos(){
         if(!isMobile){
             return(
-                <ScrollAnimation className='servicos' animateIn="animate__fadeInRight"  >
-                    <Servicos/>
+                <ScrollAnimation  animateIn="animate__fadeInRight"  >
+                    <Servicos className='servicos'/>
                 </ScrollAnimation>
             )
         }
