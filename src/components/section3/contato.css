@@ -25,6 +25,7 @@ color:rgba(10, 41, 79, .7);
     margin: auto;
     text-align: center;
     padding-bottom:20px;
+    border: 1px solid tomato;
 }
 .servicos-container{
     display: flex;
