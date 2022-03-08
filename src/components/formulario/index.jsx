@@ -1,8 +1,7 @@
 
 
-import { useEffect, useContext } from 'react'
-import { Link } from 'react-router-dom'
-import Home from '../../pages/home'
+import {  useContext } from 'react'
+
 import context from '../../state/context'
 
 export default function Formulario() {

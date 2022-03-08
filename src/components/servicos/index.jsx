@@ -14,8 +14,8 @@ export default function Servicos(){
     
     
     function linkToServico(link) {
-        window.location.assign(`/servicos#${link}`)
-        console.log()
+        window.location.assign(`${window.location.href}servicos#${link}`)
+        
     }
     
     return(
