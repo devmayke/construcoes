@@ -95,7 +95,7 @@ export default function Section2() {
                 <Carousel className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
-                    autoplay={sizeWidth()}
+                    autoplay={sizeWidth() || true}
                     dragging={true}
                     pauseOnHover={true}
                     defaultControlsConfig={{

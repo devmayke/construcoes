@@ -35,7 +35,7 @@ const CarouselComponent = (props) => {
       <Carousel className='carousel'
         wrapAround={true}
         autoplayInterval={3500}
-        autoplay={sizeWidth()}
+        autoplay={sizeWidth() || true}
         dragging={true}
         pauseOnHover={true}
         defaultControlsConfig={{

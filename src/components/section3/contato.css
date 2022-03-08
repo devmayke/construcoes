@@ -18,6 +18,14 @@ color:rgba(10, 41, 79, .7);
     margin: 5px 10px;
   
 }
+.servicos{
+    margin:5px 5px;
+    margin-right: 0px;
+
+}
+.contato{
+    margin-left: 15px;
+}
 .servicos h1, .contato h1{
     height: 40px;
     display: flex;
@@ -26,7 +34,6 @@ color:rgba(10, 41, 79, .7);
     margin: auto;
     text-align: center;
     padding-bottom:20px;
-
 }
 .servicos-container{
     display: flex;
@@ -160,9 +167,15 @@ filter: invert(100%);
        flex-direction: column;
        padding: 5px;
         }
+
+    .servicos{
+        margin:5px 5px;
+
+    }
     .contato {
         width: 100%;
-        padding: 0 5px;      
+        padding: 0 5px;  
+        margin: 5px 10px;    
 
     }
     .servicos h1, .contato h1{
