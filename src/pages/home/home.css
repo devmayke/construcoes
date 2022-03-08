@@ -18,8 +18,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 20px;
+  padding: 22px;
   border-radius: 10px;
+  color:rgba(10,41,79,1);
 
 }
 .modal-email button{
@@ -32,8 +33,17 @@
   justify-content: center;
   align-items: center;
   border: none;
-  background: red;
+  background: rgba(10,41,79,1);
   border-radius: 50%;
   color:white;
   cursor:pointer;
+}
+@media screen and (max-width: 600px){
+  .modal-email{
+   
+    width: 95%;
+    font-size: 13px;
+  
+  
+  }
 }
