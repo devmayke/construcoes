@@ -4,35 +4,46 @@ import Nav from '../../components/nav'
 import "animate.css/animate.min.css"
 import 'animate.css';
 import {useState, useEffect} from 'react'
+import {useParams} from 'react-router-dom'
 
 
 
 const Servicos = (props) => {
   const [wpmode, setWpmode] = useState('https://web.whatsapp.com/send?phone=5548999973102?&text=Olá%20Binho%20Construções')
+  const {servico} = useParams()
   useEffect(() => {
    
-      if(window.location.hash){
-        window.onLoad = ()=>{
+  
+    
           let sections = document.querySelectorAll("section")
           sections.forEach((el, index)=>{
             if(window.location.hash === "#" + el.id){
               el.scrollIntoView({
                 behavior: "smooth",
-                block:    "nearest" ,
+                block:    "nearest",
                 inline:   "nearest" 
               })           
             }    
           })
-        }       
-      }
-      if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
-          setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
-          document.querySelectorAll("section").forEach((el, index)=>{
-            if(window.location.hash === "#" + el.id){
+          let a = document.querySelectorAll(".servicos-nav a")
+          a.forEach((el,index)=>{
+            console.log(el.hash)
+            if(window.location.hash ===  el.hash){
+             
               el.click()        
-            }    
-          })
-      }
+            } 
+        })
+     
+      // if (navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/Android/i)) {
+      //     setWpmode("https://wa.me/5548999973102?&text=Olá%20Binho%20Construções")
+         
+      //       a.forEach((el,index)=>{
+      //         if(window.document.hash() === "#" + el.id){
+      //           console.log('caiu aqui' + a)
+      //           el.click()        
+      //         } 
+      //     })
+      // }
   }, [])
 
   return (

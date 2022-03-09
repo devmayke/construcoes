@@ -16,7 +16,7 @@ function Router() {
     return (
         <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/servicos" element={<Servicos />} />
+            <Route path="/servicos" element={<Servicos />} />
             <Route exact path="/sobre" element={<Sobre />} />
             <Route exact path="/contato" element={<Contato />} />
             <Route exact path="/cliente" element={<Cliente />} />
