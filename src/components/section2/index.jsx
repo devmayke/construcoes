@@ -53,11 +53,40 @@ export default function Section2() {
             'Lavação predial, paredes, telhados, rufos, calhas e fachadas de vidro'
         ]
     }
+
+    const tips = [
+        {
+            title:"Dica 1",
+            description:"bla bla bla bla bla bla",
+            image:images[0]
+
+        },
+        {
+            title:"Dica 2",
+            description:"bla bla bla bla bla bla",
+            image:images[1]
+
+        },
+        {
+            title:"Dica 3",
+            description:"bla bla bla bla bla bla",
+            image:images[2]
+
+        },
+        {
+            title:"Dica 4",
+            description:"bla bla bla bla bla bla",
+            image:images[3]
+
+        },
+    ]
+    console.log("tips", tips)
+
     function renderGroup1() {
         if (!isMobile) {
             return (
                 <>
-                    <ScrollAnimation className='article' animateIn='animate__animated animate__zoomIn'>
+                    {/* <ScrollAnimation className='article' animateIn='animate__animated animate__zoomIn'>
                         <article >
                             <h1 className="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
@@ -69,8 +98,10 @@ export default function Section2() {
                             <h1 className="fade-up " >Título</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras pellentesque dapibus purus eget viverra. Quisque non mollis orci, at vehicula dolor. Morbi orci dolor, elementum at felis ut, efficitur tempus leo. Sed eu diam leo.</p>
                         </article>
-                    </ScrollAnimation>
+                    </ScrollAnimation> */}
 
+
+                  
                 </>
             )
         }
@@ -127,7 +158,7 @@ export default function Section2() {
         }
         return (
             <ScrollAnimation className='carousel-article' animateIn='animate__animated animate__zoomIn'>
-                <Carousel data-aos="slide-down" className='carousel-article'
+                <Carousel  className='carousel-article'
                     wrapAround={true}
                     autoplayInterval={3500}
                     autoplay={sizeWidth()}
@@ -151,9 +182,35 @@ export default function Section2() {
                     }} >
                     {
                         images.map((el, i) => {
-                            return (
-                                <img alt='' src={el} className={currentSlideState === i ? 'animate' : ''} key={i} />
-                            )
+                            return (<>
+                                <article className="gallery">
+
+                                {
+                                    tips.map((el, index)=>{
+        
+                                        return(
+                                            <div className='photo'>
+                                                <img src={el.image} alt="" />
+                                            <div className='textGallery'>
+                                                <h1>{el.title}</h1>
+        
+                                                <p>{el.description}</p>
+                                            </div>
+        
+        
+        
+                                            </div>
+                                        )
+        
+                                    })
+                                }
+        
+        
+        
+                            </article>
+        
+                                {/* <img alt='' src={el} className={currentSlideState === i ? 'animate' : ''} key={i} /> */}
+                                </>)
                         })
                     }
                 </Carousel>
@@ -166,9 +223,9 @@ export default function Section2() {
 
     return (
         <section className='section2'>
-            <div className="group1">
+            {/* <div className="group1">
                 {renderGroup1()}
-            </div>
+            </div> */}
             <div className='group2'>
                 {renderGroup2()}
             </div>

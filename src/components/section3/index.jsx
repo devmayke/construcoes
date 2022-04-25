@@ -48,7 +48,7 @@ export default function Section3 () {
  
     return (
         <section className='section3'>
-           {renderServicos()}
+            {renderServicos()}
             {renderFormulario()}
         </section>
     )
